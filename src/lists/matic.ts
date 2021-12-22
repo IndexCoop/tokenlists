@@ -1,5 +1,26 @@
 import TokenData from '../TokenData';
 
+const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
+  {
+    name: 'ETH 2x Flexible Leverage Index',
+    address: '0x3ad707da309f3845cd602059901e39c4dcd66473',
+    symbol: 'ETH2x-FLI-P',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x3Ad707dA309f3845cd602059901E39C4dcd66473/logo.png',
+  },
+  {
+    name: 'Metaverse Index',
+    address: '0xfe712251173A2cd5F5bE2B46Bb528328EA3565E1',
+    symbol: 'MVI',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xfe712251173A2cd5F5bE2B46Bb528328EA3565E1/logo.png',
+  },
+];
+
 const MATIC_TOKENS: TokenData[] = [
   {
     name: 'USD Coin',
@@ -464,6 +485,9 @@ const MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x4691937a7508860F876c9c0a2a617E7d9E945D4B/logo.png',
   },
+  ...INDEX_COOP_MATIC_TOKENS,
 ];
+
+export {INDEX_COOP_MATIC_TOKENS};
 
 export default MATIC_TOKENS;
