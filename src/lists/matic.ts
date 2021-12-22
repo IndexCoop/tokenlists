@@ -19,6 +19,15 @@ const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xfe712251173A2cd5F5bE2B46Bb528328EA3565E1/logo.png',
   },
+  {
+    name: 'DefiPulse Index',
+    address: '0x85955046DF4668e1DD369D2DE9f3AEB98DD2A369',
+    symbol: 'DPI',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/icons/master/token/dpi.jpg',
+  },
 ];
 
 const MATIC_TOKENS: TokenData[] = [
