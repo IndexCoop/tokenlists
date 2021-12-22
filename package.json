@@ -22,7 +22,8 @@
     "prepare": "husky install && npm run build",
     "posttest": "npm run lint",
     "build": "npm run compile:esm && npm run compile:cjs",
-    "semantic-release": "semantic-release --branches main"
+    "semantic-release": "semantic-release --branches main",
+    "acp": "git add . && npm run commit && git push"
   },
   "keywords": [
     "npm",
