@@ -28,6 +28,15 @@ const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/dpi.jpg',
   },
+  {
+    name: 'Data Economy Index',
+    address: '0x1D607Faa0A51518a7728580C238d912747e71F7a',
+    symbol: 'DATA',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FqBJa0720wKWJdF1YmuhB%2FDATA-Brand-Identificator-FLOC-1_Mesa%20de%20trabajo%201%20copia%205.png?alt=media&token=7d22f3a6-e189-42fb-b905-e8ff0a14ae0b',
+  },
 ];
 
 const MATIC_TOKENS: TokenData[] = [
