@@ -1,6 +1,6 @@
 {
   "name": "@indexcoop/tokenlists",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "token lists used by Index Coop",
   "main": "./build/cjs/index.js",
   "types": "./build/cjs/index.d.ts",
@@ -20,7 +20,8 @@
     "fix": "gts fix",
     "prepare": "husky install && npm run build",
     "posttest": "npm run lint",
-    "build": "npm run compile:esm && npm run compile:cjs"
+    "build": "npm run compile:esm && npm run compile:cjs",
+    "semantic-release": "semantic-release --branches main"
   },
   "keywords": [
     "npm",
@@ -33,7 +34,7 @@
   "homepage": "https://github.com/IndexCoop/tokenlists",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IndexCoop/tokenlists"
+    "url": "https://github.com/IndexCoop/tokenlists"
   },
   "bugs": {
     "url": "https://github.com/IndexCoop/tokenlists/issues"
@@ -64,6 +65,7 @@
     "react-test-renderer": "^16.14.0",
     "rimraf": "^3",
     "ts-jest": "^27",
-    "typescript": "^4.2"
+    "typescript": "^4.2",
+    "semantic-release": "^18.0.1"
   }
 }
