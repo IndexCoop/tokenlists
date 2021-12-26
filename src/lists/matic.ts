@@ -2,6 +2,15 @@ import TokenData from '../TokenData';
 
 const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
   {
+    address: '0xfBd8A3b908e764dBcD51e27992464B4432A1132b',
+    chainId: 1,
+    name: 'Index Cooperative',
+    symbol: 'INDEX',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x0954906da0Bf32d5479e25f46056d22f08464cab/logo.png',
+  },
+  {
     name: 'ETH 2x Flexible Leverage Index',
     address: '0x3ad707da309f3845cd602059901e39c4dcd66473',
     symbol: 'ETH2x-FLI-P',
@@ -507,5 +516,4 @@ const MATIC_TOKENS: TokenData[] = [
 ];
 
 export {INDEX_COOP_MATIC_TOKENS};
-
 export default MATIC_TOKENS;

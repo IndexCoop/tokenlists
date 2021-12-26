@@ -1,5 +1,71 @@
 import TokenData from '../TokenData';
 
+const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
+  {
+    address: '0x0954906da0Bf32d5479e25f46056d22f08464cab',
+    chainId: 1,
+    name: 'Index Cooperative',
+    symbol: 'INDEX',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x0954906da0Bf32d5479e25f46056d22f08464cab/logo.png',
+  },
+  {
+    address: '0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b',
+    chainId: 1,
+    name: 'Defi Pulse Index',
+    symbol: 'DPI',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/icons/master/token/dpi.jpg',
+  },
+  {
+    address: '0x72e364f2abdc788b7e918bc238b21f109cd634d7',
+    chainId: 1,
+    name: 'Metaverse Index',
+    symbol: 'MVI',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xfe712251173A2cd5F5bE2B46Bb528328EA3565E1/logo.png',
+  },
+  {
+    address: '0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd',
+    chainId: 1,
+    name: 'ETH 2x Flexible Leverage Index',
+    symbol: 'ETH2x-FLI',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x3Ad707dA309f3845cd602059901E39C4dcd66473/logo.png',
+  },
+  {
+    address: '0x0B498ff89709d3838a063f1dFA463091F9801c2b',
+    chainId: 1,
+    name: 'BTC 2x Flexible Leverage Index',
+    symbol: 'BTC2x-FLI',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x0B498ff89709d3838a063f1dFA463091F9801c2b/logo.png',
+  },
+  {
+    address: '0x33d63ba1e57e54779f7ddaeaa7109349344cf5f1',
+    chainId: 1,
+    name: 'Data Economy Index',
+    symbol: 'DATA',
+    decimals: 18,
+    logoURI:
+      'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FqBJa0720wKWJdF1YmuhB%2FDATA-Brand-Identificator-FLOC-1_Mesa%20de%20trabajo%201%20copia%205.png?alt=media&token=7d22f3a6-e189-42fb-b905-e8ff0a14ae0b',
+  },
+  {
+    address: '0x2af1df3ab0ab157e1e2ad8f88a7d04fbea0c7dc6',
+    chainId: 1,
+    name: 'Bankless BED Index',
+    symbol: 'BED',
+    decimals: 18,
+    logoURI:
+      'https://docs.indexcoop.com/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MJY-enmfAw5ra2s-8QX%2F-MfEZuJUJyjkQZ2a5IU1%2F-MfG4JTent3kLJyOu6Dk%2FBED%20logo.jpg?alt=media&token=ad530093-ab26-439c-ab38-e43b03c4aec9',
+  },
+];
+
 const MAINNET_TOKENS: TokenData[] = [
   {
     address: '0xD417144312DbF50465b1C641d016962017Ef6240',
@@ -335,15 +401,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/rari.jpg',
   },
   {
-    address: '0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b',
-    chainId: 1,
-    name: 'Defi Pulse Index',
-    symbol: 'DPI',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/dpi.jpg',
-  },
-  {
     address: '0xe1406825186D63980fd6e2eC61888f7B91C4bAe4',
     chainId: 1,
     name: 'vBTC',
@@ -602,15 +659,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/badger.jpg',
-  },
-  {
-    address: '0x0954906da0Bf32d5479e25f46056d22f08464cab',
-    chainId: 1,
-    name: 'Index Cooperative',
-    symbol: 'INDEX',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x0954906da0Bf32d5479e25f46056d22f08464cab/logo.png',
   },
   {
     address: '0x87eDfFDe3E14c7a66c9b9724747a1C5696b742e6',
@@ -2071,15 +2119,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/rai.jpg',
   },
   {
-    address: '0x0B498ff89709d3838a063f1dFA463091F9801c2b',
-    chainId: 1,
-    name: 'BTC 2x Flexible Leverage Index',
-    symbol: 'BTC2x-FLI',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x0B498ff89709d3838a063f1dFA463091F9801c2b/logo.png',
-  },
-  {
     address: '0xD0660cD418a64a1d44E9214ad8e459324D8157f1',
     chainId: 1,
     name: 'Woofy',
@@ -2551,6 +2590,8 @@ const MAINNET_TOKENS: TokenData[] = [
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xE94B97b6b43639E238c851A7e693F50033EfD75C/logo.png',
   },
+  ...INDEX_COOP_MAINNET_TOKENS,
 ];
 
+export {INDEX_COOP_MAINNET_TOKENS};
 export default MAINNET_TOKENS;
