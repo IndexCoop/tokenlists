@@ -46,6 +46,15 @@ const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FqBJa0720wKWJdF1YmuhB%2FDATA-Brand-Identificator-FLOC-1_Mesa%20de%20trabajo%201%20copia%205.png?alt=media&token=7d22f3a6-e189-42fb-b905-e8ff0a14ae0b',
   },
+  {
+    name: 'Hoot Index',
+    address: '0xf282dd7e23d8db89671b70cd3f0ecb1f957a2be0',
+    symbol: 'HOOT',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://iblog.isowa.io/wp-content/uploads/2020/03/cropped-favicon-owl.png',
+  },
 ];
 
 const MATIC_TOKENS: TokenData[] = [
