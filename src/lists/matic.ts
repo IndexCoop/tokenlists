@@ -2,9 +2,18 @@ import TokenData from '../TokenData';
 
 const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
   {
-    address: '0xfBd8A3b908e764dBcD51e27992464B4432A1132b',
-    chainId: 1,
+    name: 'Bankless DeFi Innovation Index (PoS)',
+    address: '0x7fb27ee135db455de5ab1ccec66a24cbc82e712d',
+    chainId: 137,
+    symbol: 'GMI',
+    decimals: 18,
+    logoURI:
+      'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FAHyFusKCIRPu5o9FhZkk%2FGMI_LOGO-07.svg?alt=media&token=536da550-6d40-4f6c-b115-3b52a6365d64',
+  },
+  {
     name: 'Index Cooperative',
+    address: '0xfBd8A3b908e764dBcD51e27992464B4432A1132b',
+    chainId: 137,
     symbol: 'INDEX',
     decimals: 18,
     logoURI:

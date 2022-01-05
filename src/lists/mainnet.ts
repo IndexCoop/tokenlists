@@ -2,6 +2,24 @@ import TokenData from '../TokenData';
 
 const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
   {
+    address: '0x47110d43175f7f2c2425e7d15792acc5817eb44f',
+    chainId: 1,
+    name: 'Bankless DeFi Innovation Index',
+    symbol: 'GMI',
+    decimals: 18,
+    logoURI:
+      'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FAHyFusKCIRPu5o9FhZkk%2FGMI_LOGO-07.svg?alt=media&token=536da550-6d40-4f6c-b115-3b52a6365d64',
+  },
+  {
+    address: '0xc18360217d8f7ab5e7c516566761ea12ce7f9d72',
+    chainId: 1,
+    name: 'Ethereum Name Service',
+    symbol: 'ENS',
+    decimals: 18,
+    logoURI:
+      'https://assets.trustwalletapp.com/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png',
+  },
+  {
     address: '0x0954906da0Bf32d5479e25f46056d22f08464cab',
     chainId: 1,
     name: 'Index Cooperative',
