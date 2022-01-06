@@ -140,6 +140,15 @@ const MATIC_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xD6DF932A45C0f255f85145f286eA0b292B21C90B/logo.png',
   },
   {
+    name: 'Aave Matic Market WETH',
+    address: '0x28424507fefb6f7f8E9D3860F56504E4e5f5f390',
+    chainId: 137,
+    symbol: 'amWETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17266/large/amWETH_2x.png?1626967258',
+  },
+  {
     name: 'SushiToken',
     address: '0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a',
     symbol: 'SUSHI',
