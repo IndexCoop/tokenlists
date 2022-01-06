@@ -6,8 +6,6 @@ github: https://github.com/IndexCoop/tokenlists
 
 ---
 
-<br/>
-
 ## Install
 
 ```
@@ -15,8 +13,6 @@ yarn add @indexcoop/tokenlists
 ```
 
 ---
-
-<br/>
 
 ## Usage
 
@@ -38,15 +34,11 @@ import {
 
 ---
 
-<br/>
-
 ## Contributing
 
 `npm run commit`
 
 REQUIRED: Due to the use of [semantic-release](https://www.npmjs.com/package/semantic-release-cli) for deploying to npm's registry, we require commits to be formatted a specific way. This is made easy by the above npm script. If your commit doesn't use the above command for styling, it won't be picked up by semantic-release for publishing.
-
-<br/>
 
 ### Adding IndexCoop Tokens
 
@@ -66,8 +58,6 @@ const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
   {...}
 ];
 ```
-
-<br/>
 
 ### Adding non-IndexCoop Tokens
 
