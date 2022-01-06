@@ -2,6 +2,15 @@ import TokenData from '../TokenData';
 
 const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
   {
+    name: 'Aave Matic Market WETH',
+    address: '0x28424507fefb6f7f8E9D3860F56504E4e5f5f390',
+    chainId: 137,
+    symbol: 'amWETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17266/large/amWETH_2x.png?1626967258',
+  },
+  {
     name: 'Bankless DeFi Innovation Index (PoS)',
     address: '0x7fb27ee135db455de5ab1ccec66a24cbc82e712d',
     chainId: 137,
