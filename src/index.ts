@@ -16,7 +16,14 @@
 import MAINNET_TOKENS, {INDEX_COOP_MAINNET_TOKENS} from './lists/mainnet';
 import MATIC_TOKENS, {INDEX_COOP_MATIC_TOKENS} from './lists/matic';
 
-export {default as TokenData} from './TokenData';
+export interface TokenData {
+  chainId: number;
+  address: string;
+  name: string;
+  symbol: string;
+  decimals: number;
+  logoURI: string;
+}
 
 export const MainnetTokens = MAINNET_TOKENS;
 export const IndexCoopMainnetTokens = INDEX_COOP_MAINNET_TOKENS;

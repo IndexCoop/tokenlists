@@ -1,4 +1,4 @@
-import TokenData from '../TokenData';
+import {TokenData} from '..';
 
 const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
   {
