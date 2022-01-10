@@ -2209,9 +2209,9 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8/logo.png',
   },
   {
-    address: '0xEE06A81a695750E71a662B51066F2c74CF4478a0',
+    address: '0xee06a81a695750e71a662b51066f2c74cf4478a0',
     chainId: 1,
-    name: 'decentral.games',
+    name: 'Decentral Games (Old)',
     symbol: 'DG',
     decimals: 18,
     logoURI:
@@ -2607,6 +2607,222 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xE94B97b6b43639E238c851A7e693F50033EfD75C/logo.png',
+  },
+  {
+    address: '0x6123b0049f904d730db3c36a31167d9d4121fa6b',
+    chainId: 1,
+    name: 'Ribbon Finance',
+    symbol: 'RBN',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15823/small/RBN_64x64.png?1633529723',
+  },
+  {
+    address: '0x2e9d63788249371f1dfc918a52f8d799f4a38c94',
+    chainId: 1,
+    name: 'Tokemak',
+    symbol: 'TOKE',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x2e9d63788249371f1DFC918a52f8d799F4a38C94/logo.png',
+  },
+  {
+    address: '0xc7283b66eb1eb5fb86327f08e1b5816b0720212b',
+    chainId: 1,
+    name: 'Tribe',
+    symbol: 'TRIBE',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B/logo.png',
+  },
+  {
+    address: '0x0ab87046fbb341d058f17cbc4c1133f25a20a52f',
+    chainId: 1,
+    name: 'Governance OHM',
+    symbol: 'GOHM',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/21129/small/token_wsOHM_logo.png?1638764900',
+  },
+  {
+    address: '0xeec2be5c91ae7f8a338e1e5f3b5de49d07afdc81',
+    chainId: 1,
+    name: 'Dopex',
+    symbol: 'DPX',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xEec2bE5c91ae7f8a338e1e5f3b5DE49d07AfdC81/logo.png',
+  },
+  {
+    address: '0x92d6c1e31e14520e676a687f0a93788b716beff5',
+    chainId: 1,
+    name: 'dYdX',
+    symbol: 'DYDX',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x92D6C1e31e14520e676a687F0a93788B716BEff5/logo.png',
+  },
+  {
+    address: '0x33349b282065b0284d756f0577fb39c158f935e6',
+    chainId: 1,
+    name: 'Maple',
+    symbol: 'MPL',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14097/small/photo_2021-05-03_14.20.41.jpeg?1620022863',
+  },
+  {
+    address: '0x6243d8cea23066d098a15582d81a598b4e8391f4',
+    chainId: 1,
+    name: 'Reflexer Ungovernance Token',
+    symbol: 'FLX',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14123/small/EAfYdwgd_400x400.jpg?1614564508',
+  },
+  {
+    address: '0x58b6a8a3302369daec383334672404ee733ab239',
+    chainId: 1,
+    name: 'Liverpeer',
+    symbol: 'LPT',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x58b6A8A3302369DAEc383334672404Ee733aB239/logo.png',
+  },
+  {
+    address: '0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5',
+    chainId: 1,
+    name: 'renFIL',
+    symbol: 'RENFIL',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5/logo.png',
+  },
+  {
+    address: '0x3845badade8e6dff049820680d1f14bd3903a5d0',
+    chainId: 1,
+    name: 'The Sandbox',
+    symbol: 'SAND',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3845badAde8e6dFF049820680d1F14bD3903a5d0/logo.png',
+  },
+  {
+    address: '0x7a2bc711e19ba6aff6ce8246c546e8c4b4944dfd',
+    chainId: 1,
+    name: 'Wax',
+    symbol: 'WAXE',
+    decimals: 8,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x7a2Bc711E19ba6aff6cE8246C546E8c4B4944DFD/logo.png',
+  },
+  {
+    address: '0x25f8087ead173b73d6e8b84329989a8eea16cf73',
+    chainId: 1,
+    name: 'Yield Guild Games',
+    symbol: 'YGG',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x25f8087EAD173b73D6e8B84329989A8eEA16CF73/logo.png',
+  },
+  {
+    address: '0xbbc2ae13b23d715c30720f079fcd9b4a74093505',
+    chainId: 1,
+    name: 'Ethernity',
+    symbol: 'ERN',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14238/small/ethernity_logo.png?1615189750',
+  },
+  {
+    address: '0x4b520c812e8430659fc9f12f6d0c39026c83588d',
+    chainId: 1,
+    name: 'Decentral Games',
+    symbol: 'DG',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xEE06A81a695750E71a662B51066F2c74CF4478a0/logo.png',
+  },
+  {
+    address: '0x9355372396e3f6daf13359b7b607a3374cc638e0',
+    chainId: 1,
+    name: 'Whale',
+    symbol: 'WHALE',
+    decimals: 4,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9355372396e3F6daF13359B7b607a3374cc638e0/logo.png',
+  },
+  {
+    address: '0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988',
+    chainId: 1,
+    name: 'Terra Virtua Kolect',
+    symbol: 'TVK',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988/logo.png',
+  },
+  {
+    address: '0x557b933a7c2c45672b610f8954a3deb39a51a8ca',
+    chainId: 1,
+    name: 'Revv',
+    symbol: 'REVV',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x557B933a7C2c45672B610F8954A3deB39a51A8Ca/logo.png',
+  },
+  {
+    address: '0x6f40d4a6237c257fff2db00fa0510deeecd303eb',
+    chainId: 1,
+    name: 'Instadapp',
+    symbol: 'INST',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14688/small/30hFM0-n_400x400.jpg?1617786420',
+  },
+  {
+    address: '0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202',
+    chainId: 1,
+    name: 'Kyber Network Crystal',
+    symbol: 'KNC',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14899/small/RwdVsGcw_400x400.jpg?1618923851',
+  },
+  {
+    address: '0x7c8155909cd385f120a56ef90728dd50f9ccbe52',
+    chainId: 1,
+    name: 'Nahmii',
+    symbol: 'NII',
+    decimals: 15,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/9786/small/nahmii-sm_icon-full-color.png?1608513773',
+  },
+  {
+    address: '0xf57e7e7c23978c3caec3c3548e3d615c346e79ff',
+    chainId: 1,
+    name: 'Immutable X',
+    symbol: 'IMX',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF/logo.png',
+  },
+  {
+    address: '0x7b35ce522cb72e4077baeb96cb923a5529764a00',
+    chainId: 1,
+    name: 'Impermax',
+    symbol: 'IMX',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15126/small/Copy_of_200px.png?1619761475',
+  },
+  {
+    address: '0x9e32b13ce7f2e80a01932b42553652e053d6ed8e',
+    chainId: 1,
+    name: 'Metis Token',
+    symbol: 'METIS',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15595/small/metis.PNG?1621298076',
   },
   ...INDEX_COOP_MAINNET_TOKENS,
 ];

@@ -539,6 +539,51 @@ const MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x4691937a7508860F876c9c0a2a617E7d9E945D4B/logo.png',
   },
+  {
+    name: 'Governance OHM',
+    address: '0xd8ca34fd379d9ca3c6ee3b3905678320f5b45195',
+    symbol: 'GOHM',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/21129/small/token_wsOHM_logo.png?1638764900',
+  },
+  {
+    name: 'The Sandbox',
+    address: '0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683',
+    symbol: 'SAND',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3845badAde8e6dFF049820680d1F14bD3903a5d0/logo.png',
+  },
+  {
+    name: 'Revv',
+    address: '0x70c006878a5a50ed185ac4c87d837633923de296',
+    symbol: 'REVV',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x557B933a7C2c45672B610F8954A3deB39a51A8Ca/logo.png',
+  },
+  {
+    name: 'Kyber Network Crystal',
+    address: '0x1c954e8fe737f99f68fa1ccda3e51ebdb291948c',
+    symbol: 'KNC',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14899/small/RwdVsGcw_400x400.jpg?1618923851',
+  },
+  {
+    name: 'Impermax',
+    address: '0x60bb3d364b765c497c8ce50ae0ae3f0882c5bd05',
+    symbol: 'IMX',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15126/small/Copy_of_200px.png?1619761475',
+  },
   ...INDEX_COOP_MATIC_TOKENS,
 ];
 
