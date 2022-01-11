@@ -86,6 +86,24 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://assets.trustwalletapp.com/blockchains/ethereum/assets/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72/logo.png',
   },
   {
+    address: '0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5',
+    chainId: 1,
+    name: 'cETH',
+    symbol: 'CETH',
+    decimals: 8,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/10643/thumb/ceth2.JPG?1581389598',
+  },
+  {
+    address: '0xccf4429db6322d5c611ee964527d42e5d685dd6a',
+    chainId: 1,
+    name: 'cWBTC',
+    symbol: 'CWBTC',
+    decimals: 8,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/10823/thumb/cwbtc.png?1584331700',
+  },
+  {
     address: '0xD417144312DbF50465b1C641d016962017Ef6240',
     chainId: 1,
     name: 'Covalent Query Token',
