@@ -2842,6 +2842,15 @@ const MAINNET_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/15595/small/metis.PNG?1621298076',
   },
+  {
+    address: '0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b',
+    chainId: 1,
+    name: 'Rally',
+    symbol: 'RLY',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/12843/small/image.png?1611212077',
+  },
   ...INDEX_COOP_MAINNET_TOKENS,
 ];
 
