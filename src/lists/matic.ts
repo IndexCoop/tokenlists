@@ -584,6 +584,15 @@ const MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/15126/small/Copy_of_200px.png?1619761475',
   },
+  {
+    name: 'Global Coin Research',
+    address: '0xa69d14d6369e414a32a5c7e729b7afbafd285965',
+    symbol: 'GCR',
+    decimals: 4,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14815/small/gcr.jpeg?1641461197',
+  },
   ...INDEX_COOP_MATIC_TOKENS,
 ];
 
