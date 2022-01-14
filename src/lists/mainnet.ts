@@ -2851,6 +2851,96 @@ const MAINNET_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/12843/small/image.png?1611212077',
   },
+  {
+    address: '0x64d91f12ece7362f91a6f8e7940cd55f05060b92',
+    chainId: 1,
+    name: 'Ash',
+    symbol: 'ASH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15714/small/omnPqaTY.png?1622820503',
+  },
+  {
+    address: '0x35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8',
+    chainId: 1,
+    name: 'Friends With Benefits Pro',
+    symbol: 'FWB',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14391/small/xRGEXmQN_400x400.png?1615868085',
+  },
+  {
+    address: '0x32353a6c91143bfd6c7d363b546e62a9a2489a20',
+    chainId: 1,
+    name: 'Adventure Gold',
+    symbol: 'AGLD',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/18125/small/lpgblc4h_400x400.jpg?1630570955',
+  },
+  {
+    address: '0x6307b25a665efc992ec1c1bc403c38f3ddd7c661',
+    chainId: 1,
+    name: 'Global Coin Research',
+    symbol: 'GCR',
+    decimals: 4,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14815/small/gcr.jpeg?1641461197',
+  },
+  {
+    address: '0xfb5453340c03db5ade474b27e68b6a9c6b2823eb',
+    chainId: 1,
+    name: 'MetaFactory',
+    symbol: 'ROBOT',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/13517/small/MF_Robot_200px.png?1609312481',
+  },
+  {
+    address: '0x69bbc3f8787d573f1bbdd0a5f40c7ba0aee9bcc9',
+    chainId: 1,
+    name: 'Yup',
+    symbol: 'YUP',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/12322/small/photo_2021-10-26_00-47-35.jpg?1635227479',
+  },
+  {
+    address: '0xf2051511b9b121394fa75b8f7d4e7424337af687',
+    chainId: 1,
+    name: 'DAOHaus',
+    symbol: 'HAUS',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14551/small/jN3kkqke_400x400.png?1616990048',
+  },
+  {
+    address: '0x7e9d8f07a64e363e97a648904a89fb4cd5fb94cd',
+    chainId: 1,
+    name: 'Forefront',
+    symbol: 'FF',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14659/small/N2kir6jx_400x400.jpg?1617608020',
+  },
+  {
+    address: '0xd33526068d116ce69f19a9ee46f0bd304f21a51f',
+    chainId: 1,
+    name: 'Rocket Pool',
+    symbol: 'RPL',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/2090/small/rocket_pool_%28RPL%29.png?1637662441',
+  },
+  {
+    address: '0xae78736cd615f374d3085123a210448e74fc6393',
+    chainId: 1,
+    name: 'Rocket Pool ETH',
+    symbol: 'RETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/20764/small/reth.png?1637652366',
+  },
   ...INDEX_COOP_MAINNET_TOKENS,
 ];
 
