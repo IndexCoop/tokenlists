@@ -1743,15 +1743,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9d409a0A012CFbA9B15F6D4B36Ac57A46966Ab9a/logo.png',
   },
   {
-    address: '0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b',
-    chainId: 1,
-    name: 'Axie Infinity Shard 2',
-    symbol: 'AXS/v2',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b/logo.png',
-  },
-  {
     address: '0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4',
     chainId: 1,
     name: 'Ankr Network',
@@ -1914,6 +1905,15 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xEE06A81a695750E71a662B51066F2c74CF4478a0/logo.png',
   },
   {
+    address: '0x4b520c812E8430659FC9f12f6d0c39026C83588D',
+    chainId: 1,
+    name: 'Decentral Games',
+    symbol: 'DG',
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xEE06A81a695750E71a662B51066F2c74CF4478a0/logo.png',
+  },
+  {
     address: '0x68481f2c02BE3786987ac2bC3327171C5D05F9Bd',
     chainId: 1,
     name: 'Based Loans Ownership',
@@ -1941,13 +1941,13 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/mln.jpg',
   },
   {
-    address: '0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B',
-    chainId: 1,
-    name: 'Convex Token',
-    symbol: 'CVX',
+    name: 'SushiToken',
+    address: '0x6B3595068778DD592e39A122f4f5a5cF09C90fE2',
+    symbol: 'SUSHI',
     decimals: 18,
+    chainId: 137,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B/logo.png',
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a/logo.png',
   },
   {
     address: '0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7',
@@ -3359,7 +3359,7 @@ const MAINNET_TOKENS: TokenData[] = [
   },
   {
     chainId: 1,
-    address: '0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b',
+    address: '0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B',
     name: 'Convex Finance',
     symbol: 'CVX',
     decimals: 18,
