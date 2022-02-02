@@ -1,14 +1,14 @@
 # tokenlists
 
-npm: https://www.npmjs.com/package/@indexcoop/tokenlists
+npm: <https://www.npmjs.com/package/@indexcoop/tokenlists>
 
-github: https://github.com/IndexCoop/tokenlists
+github: <https://github.com/IndexCoop/tokenlists>
 
 ---
 
 ## Install
 
-```
+```bash
 yarn add @indexcoop/tokenlists
 ```
 
@@ -26,10 +26,16 @@ import {
 } from '@indexcoop/tokenlists';
 ```
 
-- `IndexCoopMainnetTokens`: Only IndexCoop mainnet tokens
-- `IndexCoopMaticTokens`: Only IndexCoop matic network tokens
-- `MainnetTokens`: All mainnet tokens, including `IndexCoopMainnetTokens`
-- `MaticTokens`: All matic network tokens, including `IndexCoopMaticTokens`
+- `IndexCoopMainnetTokens`: Only IndexCoop Mainnet tokens
+- `IndexCoopMaticTokens`: Only IndexCoop Matic network tokens
+- `IndexCoopArbitrumTokens`: Only IndexCoop Arbitrum roll-up tokens
+- `IndexCoopOptimismTokens`: Only IndexCoop Optimism roll-up tokens
+- `IndexCoopAvalanceTokens`: Only IndexCoop Avalanche network tokens
+- `MainnetTokens`: All Mainnet tokens, including `IndexCoopMainnetTokens`
+- `MaticTokens`: All Matic network tokens, including `IndexCoopMaticTokens`
+- `ArbitrumTokens`: All Arbitrum roll-up tokens, including `IndexCoopArbitrumTokens`
+- `OptimismTokens`: All Optimism roll-up tokens, including `IndexCoopOptimismTokens`
+- `AvalancheTokens`: All Avalanche network tokens, including `IndexCoopAvalanceTokens`
 - `TokenData`: The token interface used by the lists
 
 ---
@@ -77,3 +83,20 @@ const MAINNET_TOKENS: TokenData[] = [
   {...}
 ];
 ```
+
+### Adding a new network
+
+When adding a new network, create a new file in `src/lists` named after the network, and copy the structure from any of the other lists.
+File should include at a minimum:
+
+- An exported `INDEX_COOP_NEW_NETWORK_TOKENS` TokenData array, containing only IndexCoop tokens on that network.
+- A default exported `NEW_NETWORK_TOKENS` TokenData array, containing all tokens on that network, with the last item appended being the aforementioned `INDEX_COOP_[NETWORK]_TOKENS` array.
+
+After this, `index.ts` should be updated to export the newly created lists as shown below:
+
+```typescript
+export const NewNetworkTokens = NEW_NETWORK_TOKENS;
+export const IndexCoopNewNetworkTokens = INDEX_COOP_NEW_NETWORK_TOKENS;
+```
+
+When these are complete, update the `Usage` list above to show what lists are available to a user.
