@@ -593,6 +593,33 @@ const MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/14815/small/gcr.jpeg?1641461197',
   },
+  {
+    name: 'Aave Matic Market USDC',
+    address: '0x1a13f4ca1d028320a707d99520abfefca3998b7f',
+    symbol: 'amUSDC',
+    decimals: 6,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17249/small/amUSDC_2x.png?1626941306',
+  },
+  {
+    name: 'Aave Matic Market WETH',
+    address: '0x28424507fefb6f7f8e9d3860f56504e4e5f5f390',
+    symbol: 'amWETH',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17266/small/amWETH_2x.png?1626967258',
+  },
+  {
+    name: 'Aave Matic Market WMATIC',
+    address: '0x8df3aad3a84da6b69a4da8aec3ea40d9091b2ac4',
+    symbol: 'amWMATIC',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17267/small/amWMATIC_2x.png?1626967624',
+  },
   ...INDEX_COOP_MATIC_TOKENS,
 ];
 
