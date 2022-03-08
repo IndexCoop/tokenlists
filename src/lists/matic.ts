@@ -64,6 +64,33 @@ const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://iblog.isowa.io/wp-content/uploads/2020/03/cropped-favicon-owl.png',
   },
+  {
+    name: 'MATIC 2x Flexible Leverage Index',
+    address: '0xf287D97B6345bad3D88856b26Fb7c0ab3F2C7976',
+    symbol: 'MATIC2x-FLI-P',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/23388/small/MATIC2x-FLI.png?1644061428',
+  },
+  {
+    name: 'Inverse MATIC Flexible Leverage Index',
+    address: '0x340f412860dA7b7823df372a2b59Ff78b7ae6abc',
+    symbol: 'iMATIC-FLI-P',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/23424/small/iMATIC-FLI-P-512_%28pulse_red%29.png?1644203917',
+  },
+  {
+    name: 'Inverse ETH Flexible Leverage Index',
+    address: '0x4f025829C4B13dF652f38Abd2AB901185fF1e609',
+    symbol: 'iETH-FLI-P',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/23426/small/iETH-FLI-P-512_%28pulse_red%29.png?1644204746',
+  },
 ];
 
 const MATIC_TOKENS: TokenData[] = [
