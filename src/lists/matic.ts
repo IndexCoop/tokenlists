@@ -91,6 +91,24 @@ const INDEX_COOP_MATIC_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/23426/small/iETH-FLI-P-512_%28pulse_red%29.png?1644204746',
   },
+  {
+    name: 'BTC 2x Flexible Leverage Index',
+    address: '0xd6ca869a4ec9ed2c7e618062cdc45306d8dbbc14',
+    symbol: 'BTC2x-FLI-P',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/24179/small/Copy_of_BTC2x-FLI_token_logo.png?1646783823',
+  },
+  {
+    name: 'Inverse BTC Flexible Leverage Index',
+    address: '0x130cE4E4F76c2265f94a961D70618562de0bb8d2',
+    symbol: 'iBTC-FLI-P',
+    decimals: 18,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/24177/small/iBTC-FLI-P_pulse_red.png?1646749712',
+  },
 ];
 
 const MATIC_TOKENS: TokenData[] = [
