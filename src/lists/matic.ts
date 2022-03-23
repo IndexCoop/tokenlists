@@ -648,6 +648,15 @@ const MATIC_TOKENS: TokenData[] = [
       'https://assets.coingecko.com/coins/images/17249/small/amUSDC_2x.png?1626941306',
   },
   {
+    name: 'Aave Matic Market WBTC',
+    address: '0x5c2ed810328349100A66B82b78a1791B101C9D61',
+    symbol: 'amWBTC',
+    decimals: 8,
+    chainId: 137,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17265/small/amWBTC_2x.png?1626966974',
+  },
+  {
     name: 'Aave Matic Market WETH',
     address: '0x28424507fefb6f7f8e9d3860f56504e4e5f5f390',
     symbol: 'amWETH',
