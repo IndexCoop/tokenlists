@@ -320,15 +320,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/wnxm.jpg',
   },
   {
-    address: '0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c',
-    chainId: 1,
-    name: 'yearn Curve',
-    symbol: 'yUSD',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c/logo.png',
-  },
-  {
     address: '0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D',
     chainId: 1,
     name: 'renBTC',
@@ -345,15 +336,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/omg.jpg',
-  },
-  {
-    address: '0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5',
-    chainId: 1,
-    name: 'Pickle Token',
-    symbol: 'PICKLE',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5/logo.png',
   },
   {
     address: '0x62359Ed7505Efc61FF1D56fEF82158CcaffA23D7',
@@ -578,15 +560,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/ant.jpg',
-  },
-  {
-    address: '0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d',
-    chainId: 1,
-    name: 'Pinakion',
-    symbol: 'PNK',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d/logo.png',
   },
   {
     address: '0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1',
@@ -1012,24 +985,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x66C0DDEd8433c9EA86C8cf91237B14e10b4d70B7/logo.png',
   },
   {
-    address: '0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32',
-    chainId: 1,
-    name: 'Lido DAO',
-    symbol: 'LDO',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32/logo.png',
-  },
-  {
-    address: '0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a',
-    chainId: 1,
-    name: 'Armor',
-    symbol: 'ARMOR',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x1337DEF16F9B486fAEd0293eb623Dc8395dFE46a/logo.png',
-  },
-  {
     address: '0x1337DEF18C680aF1f9f45cBcab6309562975b1dD',
     chainId: 1,
     name: 'Armor NXM',
@@ -1102,15 +1057,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x875773784Af8135eA0ef43b5a374AaD105c5D39e/logo.png',
   },
   {
-    address: '0xE95A203B1a91a908F9B9CE46459d101078c2c3cb',
-    chainId: 1,
-    name: 'ankrETH',
-    symbol: 'AETH',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xE95A203B1a91a908F9B9CE46459d101078c2c3cb/logo.png',
-  },
-  {
     address: '0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F',
     chainId: 1,
     name: 'Stake DAO',
@@ -1163,15 +1109,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/ftm.jpg',
-  },
-  {
-    address: '0xc5bDdf9843308380375a611c18B50Fb9341f502A',
-    chainId: 1,
-    name: 'veCRV-DAO yVault',
-    symbol: 'yveCRV-DAO',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xc5bDdf9843308380375a611c18B50Fb9341f502A/logo.png',
   },
   {
     address: '0x3832d2F059E55934220881F831bE501D180671A7',
@@ -1271,15 +1208,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x945Facb997494CC2570096c74b5F66A3507330a1/logo.png',
-  },
-  {
-    address: '0xDFe66B14D37C77F4E9b180cEb433d1b164f0281D',
-    chainId: 1,
-    name: 'stakedETH',
-    symbol: 'stETH/StakeHound',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0xDFe66B14D37C77F4E9b180cEb433d1b164f0281D/logo.png',
   },
   {
     address: '0xAE1eaAE3F627AAca434127644371b67B18444051',
@@ -1418,15 +1346,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/zrx.jpg',
   },
   {
-    address: '0x3E9BC21C9b189C09dF3eF1B824798658d5011937',
-    chainId: 1,
-    name: 'Linear Token',
-    symbol: 'LINA',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x3E9BC21C9b189C09dF3eF1B824798658d5011937/logo.png',
-  },
-  {
     address: '0xbC396689893D065F41bc2C6EcbeE5e0085233447',
     chainId: 1,
     name: 'Perpetual Protocol',
@@ -1443,15 +1362,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5/logo.png',
-  },
-  {
-    address: '0x888888435FDe8e7d4c54cAb67f206e4199454c60',
-    chainId: 1,
-    name: 'DFX',
-    symbol: 'DFX',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x888888435FDe8e7d4c54cAb67f206e4199454c60/logo.png',
   },
   {
     address: '0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF',
@@ -1508,15 +1418,6 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/bat.jpg',
   },
   {
-    address: '0x99fE3B1391503A1bC1788051347A1324bff41452',
-    chainId: 1,
-    name: 'SportX',
-    symbol: 'SX',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x99fE3B1391503A1bC1788051347A1324bff41452/logo.png',
-  },
-  {
     address: '0x9ba60bA98413A60dB4C651D4afE5C937bbD8044B',
     chainId: 1,
     name: 'Yearn Lazy Ape Index',
@@ -1524,15 +1425,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x9ba60bA98413A60dB4C651D4afE5C937bbD8044B/logo.png',
-  },
-  {
-    address: '0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074',
-    chainId: 1,
-    name: 'Mask Network',
-    symbol: 'MASK/MaskNetwork',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074/logo.png',
   },
   {
     address: '0x297D33e17e61C2Ddd812389C2105193f8348188a',
@@ -2155,40 +2047,6 @@ const MAINNET_TOKENS: TokenData[] = [
     chainId: 1,
     logoURI:
       'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429/logo.png',
-  },
-  {
-    address: '0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4',
-    chainId: 1,
-    name: 'Router Protocol',
-    symbol: 'ROUTE',
-    decimals: 18,
-    logoURI:
-      'https://pbs.twimg.com/profile_images/1343619589599416320/bqH1VBiG_400x400.jpg',
-  },
-  {
-    address: '0xEC213F83defB583af3A000B1c0ada660b1902A0F',
-    chainId: 1,
-    name: 'Presearch',
-    symbol: 'PRE',
-    decimals: 18,
-    logoURI:
-      'https://raw.githubusercontent.com/PresearchOfficial/presearch-brand/master/logos/svg/presearch-icon-border-blue-transparent.svg',
-  },
-  {
-    address: '0x00000000441378008EA67F4284A57932B1c000a5',
-    chainId: 1,
-    name: 'TrueGBP',
-    symbol: 'TGBP',
-    decimals: 18,
-    logoURI: 'https://assets.coingecko.com/coins/images/12724/large/TGBP.png',
-  },
-  {
-    address: '0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206',
-    chainId: 1,
-    name: 'Nexo',
-    symbol: 'NEXO',
-    decimals: 18,
-    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/2694.png',
   },
   {
     address: '0x831091dA075665168E01898c6DAC004A867f1e1B',
@@ -4103,15 +3961,6 @@ const MAINNET_TOKENS: TokenData[] = [
     decimals: 9,
     logoURI:
       'https://assets.coingecko.com/coins/images/20060/thumb/gengar-logo-transparent-96x96.png?1636445640',
-  },
-  {
-    chainId: 1,
-    address: '0xd417144312dbf50465b1c641d016962017ef6240',
-    name: 'Covalent',
-    symbol: 'CQT',
-    decimals: 18,
-    logoURI:
-      'https://assets.coingecko.com/coins/images/14168/thumb/covalent-cqt.png?1624545218',
   },
   {
     chainId: 1,
@@ -9796,15 +9645,6 @@ const MAINNET_TOKENS: TokenData[] = [
   },
   {
     chainId: 1,
-    address: '0x38e4adb44ef08f22f5b5b76a8f0c2d0dcbe7dca1',
-    name: 'PowerPool Concentra',
-    symbol: 'CVP',
-    decimals: 18,
-    logoURI:
-      'https://assets.coingecko.com/coins/images/12266/thumb/Powerpool.jpg?1598621373',
-  },
-  {
-    chainId: 1,
     address: '0xbf682bd31a615123d28d611b38b0ae3d2b675c2c',
     name: 'OT PENDLE ETH',
     symbol: 'OT-PE-29DEC2022',
@@ -13147,15 +12987,6 @@ const MAINNET_TOKENS: TokenData[] = [
   },
   {
     chainId: 1,
-    address: '0x1da4858ad385cc377165a298cc2ce3fce0c5fd31',
-    name: 'CloutContracts',
-    symbol: 'CCS',
-    decimals: 0,
-    logoURI:
-      'https://assets.coingecko.com/coins/images/19072/thumb/200.png?1634829111',
-  },
-  {
-    chainId: 1,
     address: '0x76306f029f8f99effe509534037ba7030999e3cf',
     name: 'Acreage Coin',
     symbol: 'ACR',
@@ -13472,7 +13303,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0x1337def16f9b486faed0293eb623dc8395dfe46a',
-    name: 'ARMOR',
+    name: 'Armor',
     symbol: 'ARMOR',
     decimals: 18,
     logoURI:
@@ -13913,7 +13744,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206',
-    name: 'NEXO',
+    name: 'Nexo',
     symbol: 'NEXO',
     decimals: 18,
     logoURI:
@@ -14471,7 +14302,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0x99fe3b1391503a1bc1788051347a1324bff41452',
-    name: 'SX Network',
+    name: 'SportX',
     symbol: 'SX',
     decimals: 18,
     logoURI:
@@ -16928,7 +16759,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0xe95a203b1a91a908f9b9ce46459d101078c2c3cb',
-    name: 'Ankr Reward Bearing',
+    name: 'Ankr Reward-Bearing Staked ETH',
     symbol: 'AETHC',
     decimals: 18,
     logoURI:
@@ -19287,7 +19118,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d',
-    name: 'Kleros',
+    name: 'Pinakion',
     symbol: 'PNK',
     decimals: 18,
     logoURI:
@@ -27732,8 +27563,8 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0xc5bddf9843308380375a611c18b50fb9341f502a',
-    name: 'veCRV DAO yVault',
-    symbol: 'YVE-CRVDAO',
+    name: 'veCRV-DAO yVault',
+    symbol: 'yveCRV-DAO',
     decimals: 18,
     logoURI:
       'https://assets.coingecko.com/coins/images/13065/thumb/yearn_veCRV.png?1612862859',
@@ -34626,8 +34457,8 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0xdfe66b14d37c77f4e9b180ceb433d1b164f0281d',
-    name: 'StakeHound Staked E',
-    symbol: 'STETH',
+    name: 'stakedETH',
+    symbol: 'stETH',
     decimals: 18,
     logoURI:
       'https://assets.coingecko.com/coins/images/13752/thumb/926MHi5g_400x400.png?1611542247',
@@ -34671,7 +34502,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0x3e9bc21c9b189c09df3ef1b824798658d5011937',
-    name: 'Linear',
+    name: 'Linear Token',
     symbol: 'LINA',
     decimals: 18,
     logoURI:
@@ -35553,7 +35384,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0x888888435fde8e7d4c54cab67f206e4199454c60',
-    name: 'DFX Finance',
+    name: 'DFX Token',
     symbol: 'DFX',
     decimals: 18,
     logoURI:
