@@ -119,7 +119,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'WETH',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/eth.jpg',
+      'https://assets.coingecko.com/coins/images/2518/small/weth.png?1628852295',
   },
   {
     address: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
