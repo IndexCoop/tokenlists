@@ -178,7 +178,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     address: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
     chainId: 1,
-    name: 'Chain Link',
+    name: 'Chainlink',
     symbol: 'LINK',
     decimals: 18,
     logoURI:
