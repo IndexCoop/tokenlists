@@ -2192,7 +2192,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     address: '0x58b6a8a3302369daec383334672404ee733ab239',
     chainId: 1,
-    name: 'Liverpeer',
+    name: 'Livepeer',
     symbol: 'LPT',
     decimals: 18,
     logoURI:
