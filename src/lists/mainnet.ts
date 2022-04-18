@@ -73,6 +73,24 @@ const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     logoURI:
       'https://docs.indexcoop.com/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MJY-enmfAw5ra2s-8QX%2F-MfEZuJUJyjkQZ2a5IU1%2F-MfG4JTent3kLJyOu6Dk%2FBED%20logo.jpg?alt=media&token=ad530093-ab26-439c-ab38-e43b03c4aec9',
   },
+  {
+    address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
+    chainId: 1,
+    name: 'Interest Compounding ETH',
+    symbol: 'icETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/24483/small/icETH-token-logo.png?1647826356',
+  },
+  {
+    address: '0x02e7ac540409d32c90bfb51114003a9e1ff0249c',
+    chainId: 1,
+    name: 'JPG NFT Index',
+    symbol: 'JPG',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/25071/small/JPG-token-logo-01.png?1650242041',
+  },
 ];
 
 const MAINNET_TOKENS: TokenData[] = [
