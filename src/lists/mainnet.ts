@@ -40561,7 +40561,7 @@ const MAINNET_TOKENS: TokenData[] = [
   {
     chainId: 1,
     address: '0x269616d549d7e8eaa82dfb17028d0b212d11232a',
-    name: 'Punk Vault  NFTX ',
+    name: 'Punk Vault (NFTX)',
     symbol: 'PUNK',
     decimals: 18,
     logoURI:
