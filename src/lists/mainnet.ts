@@ -58,7 +58,7 @@ const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
   {
     address: '0x33d63ba1e57e54779f7ddaeaa7109349344cf5f1',
     chainId: 1,
-    name: 'Data Economy Index',
+    name: 'Web3 Data Economy Index',
     symbol: 'DATA',
     decimals: 18,
     logoURI:
