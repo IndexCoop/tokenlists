@@ -276,6 +276,22 @@ const OPTIMISM_TOKENS: TokenData[] = [
     chainId: 10,
     logoURI: 'https://ethereum-optimism.github.io/logos/CRV.png',
   },
+  {
+    name: 'vETH',
+    address: '0x8C835DFaA34e2AE61775e80EE29E2c724c6AE2BB',
+    symbol: 'vETH',
+    decimals: 18,
+    chainId: 10,
+    logoURI: 'https://ethereum-optimism.github.io/logos/WETH.png',
+  },
+  {
+    name: 'vUSDC',
+    address: '0xC84Da6c8ec7A57cD10B939E79eaF9d2D17834E04',
+    symbol: 'vUSDC',
+    decimals: 18,
+    chainId: 10,
+    logoURI: 'https://ethereum-optimism.github.io/logos/USDC.png',
+  },
   ...INDEX_COOP_OPTIMISM_TOKENS,
 ];
 
