@@ -47489,6 +47489,15 @@ const MAINNET_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/24163/small/steth.jpg?1646634315',
   },
+  {
+    address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381',
+    chainId: 1,
+    name: 'ApeCoin',
+    symbol: 'APE',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/24383/small/apecoin.jpg',
+  },
   ...INDEX_COOP_MAINNET_TOKENS,
 ];
 
