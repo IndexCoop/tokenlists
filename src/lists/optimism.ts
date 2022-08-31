@@ -9,7 +9,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'SNX',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/SNX.svg',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/3406/small/SNX.png?1598631139',
   },
   {
     name: 'Dai Stable Coin',
@@ -18,7 +19,7 @@ const OPTIMISM_TOKENS: TokenData[] = [
     decimals: 18,
     chainId: 10,
     logoURI:
-      'https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=010',
+      'https://assets.coingecko.com/coins/images/9956/small/4943.png?1636636734',
   },
   {
     name: 'Tether USD',
@@ -26,7 +27,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'USDT',
     decimals: 6,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/USDT.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png?1598003707',
   },
   {
     name: 'Wrapped Bitcoin',
@@ -34,7 +36,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'WBTC',
     decimals: 8,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/WBTC.svg',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png?1548822744',
   },
   {
     name: '0xBitcoin',
@@ -42,7 +45,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: '0xBTC',
     decimals: 8,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/0xBTC.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/4454/small/0xbtc.png?1561603765',
   },
   {
     name: 'Chainlink',
@@ -50,7 +54,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'LINK',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/LINK.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png?1547034700',
   },
   {
     name: 'Ethereum Name Service',
@@ -58,7 +63,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'ENS',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/ENS.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/19785/small/acatxTm8_400x400.jpg?1635850140',
   },
   {
     name: 'Synthetix USD',
@@ -66,7 +72,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'sUSD',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/sUSD.svg',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/5013/small/sUSD.png?1616150765',
   },
   {
     name: 'USD Coin',
@@ -74,7 +81,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'USDC',
     decimals: 6,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/USDC.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
   },
   {
     name: 'Synthetic Ether',
@@ -82,7 +90,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'sETH',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/sETH.svg',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/8843/small/sETH.png?1616150207',
   },
   {
     name: 'Synthetic Bitcoin',
@@ -90,15 +99,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'sBTC',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/sBTC.svg',
-  },
-  {
-    name: 'Synthetic Chainlink',
-    address: '0xc5Db22719A06418028A40A9B5E9A7c02959D0d08',
-    symbol: 'sLINK',
-    decimals: 18,
-    chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/sLINK.svg',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/8838/small/sBTC.png?1616149734',
   },
   {
     name: 'Uniswap',
@@ -106,7 +108,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'UNI',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/UNI.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/12504/small/uniswap-uni.png?1600306604',
   },
   {
     name: 'LUSD Stablecoin',
@@ -226,7 +229,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'WETH',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/WETH.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/2518/small/weth.png?1628852295',
   },
   {
     name: 'Dentacoin',
@@ -282,7 +286,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'vETH',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/WETH.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/2518/small/weth.png?1628852295',
   },
   {
     name: 'vUSDC',
@@ -290,7 +295,8 @@ const OPTIMISM_TOKENS: TokenData[] = [
     symbol: 'vUSDC',
     decimals: 18,
     chainId: 10,
-    logoURI: 'https://ethereum-optimism.github.io/logos/USDC.png',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
   },
   ...INDEX_COOP_OPTIMISM_TOKENS,
 ];
