@@ -26,7 +26,7 @@ const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     symbol: 'DPI',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/dpi.jpg',
+      'https://assets.coingecko.com/coins/images/12465/small/defi_pulse_index_set.png?1600051053',
   },
   {
     address: '0x72e364f2abdc788b7e918bc238b21f109cd634d7',
@@ -155,7 +155,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'USDC',
     decimals: 6,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/usdc.jpg',
+      'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
   },
   {
     address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
@@ -200,7 +200,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'LINK',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/link.jpg',
+      'https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png?1547034700',
   },
   {
     address: '0xD46bA6D942050d489DBd938a2C909A5d5039A161',
@@ -281,7 +281,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'UNI',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/uni.jpg',
+      'https://assets.coingecko.com/coins/images/12504/small/uniswap-uni.png?1600306604',
   },
   {
     address: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272',
@@ -308,7 +308,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'WBTC',
     decimals: 8,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/btc.jpg',
+      'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png?1548822744',
   },
   {
     address: '0x2ba592F78dB6436527729929AAf6c908497cB200',
@@ -398,7 +398,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'AAVE',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/aave.jpg',
+      'https://assets.coingecko.com/coins/images/12645/small/AAVE.png?1601374110',
   },
   {
     address: '0xfF20817765cB7f73d4bde2e66e067E58D11095C2',
@@ -658,7 +658,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'BADGER',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/badger.jpg',
+      'https://assets.coingecko.com/coins/images/13287/small/badger_dao_logo.jpg?1607054976',
   },
   {
     address: '0x87eDfFDe3E14c7a66c9b9724747a1C5696b742e6',
@@ -1343,7 +1343,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'GRT',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/grt.jpg',
+      'https://assets.coingecko.com/coins/images/13397/small/Graph_Token.png?1608145566',
   },
   {
     address: '0xABe580E7ee158dA464b51ee1a83Ac0289622e6be',
@@ -1370,7 +1370,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'PERP',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/perp.jpg',
+      'https://assets.coingecko.com/coins/images/12381/small/60d18e06844a844ad75901a9_mark_only_03.png?1628674771',
   },
   {
     address: '0x92E187a03B6CD19CB6AF293ba17F2745Fd2357D5',
@@ -1388,7 +1388,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'ALCX',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/alcx.jpg',
+      'https://assets.coingecko.com/coins/images/14113/small/Alchemix.png?1614409874',
   },
   {
     address: '0x0cEC1A9154Ff802e7934Fc916Ed7Ca50bDE6844e',
@@ -1433,7 +1433,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'BAT',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/bat.jpg',
+      'https://assets.coingecko.com/coins/images/677/small/basic-attention-token.png?1547034427',
   },
   {
     address: '0x9ba60bA98413A60dB4C651D4afE5C937bbD8044B',
@@ -1956,7 +1956,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'NMR',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/nmr.jpg',
+      'https://assets.coingecko.com/coins/images/752/small/numeraire.png?1592538976',
   },
   {
     address: '0xADE00C28244d5CE17D72E40330B1c318cD12B7c3',
