@@ -218,7 +218,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'COMP',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/comp.jpg',
+      'https://assets.coingecko.com/coins/images/10775/small/COMP.png?1592625425',
   },
   {
     address: '0x80fB784B7eD66730e8b1DBd9820aFD29931aab03',
@@ -236,7 +236,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'SNX',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/snx.jpg',
+      'https://assets.coingecko.com/coins/images/3406/small/SNX.png?1598631139',
   },
   {
     address: '0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e',
@@ -245,7 +245,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'YFI',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/yfi.jpg',
+      'https://assets.coingecko.com/coins/images/11849/small/yfi-192x192.png?1598325330',
   },
   {
     address: '0x408e41876cCCDC0F92210600ef50372656052a38',
@@ -254,7 +254,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'REN',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/ren.jpg',
+      'https://assets.coingecko.com/coins/images/3139/small/REN.png?1589985807',
   },
   {
     address: '0x476c5E26a75bd202a9683ffD34359C0CC15be0fF',
@@ -371,7 +371,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'MKR',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/mkr.jpg',
+      'https://assets.coingecko.com/coins/images/1364/small/Mark_Maker.png?1585191826',
   },
   {
     address: '0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa',
@@ -425,7 +425,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'RARI',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/rari.jpg',
+      'https://assets.coingecko.com/coins/images/11845/small/Rari.png?1594946953',
   },
   {
     address: '0xe1406825186D63980fd6e2eC61888f7B91C4bAe4',
@@ -1794,7 +1794,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'MANA',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/mana.jpg',
+      'https://assets.coingecko.com/coins/images/878/small/decentraland-mana.png?1550108745',
   },
   {
     address: '0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8',
@@ -1974,7 +1974,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'LRC',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/lrc.jpg',
+      'https://assets.coingecko.com/coins/images/913/small/LRC.png?1572852344',
   },
   {
     address: '0x0eC9F76202a7061eB9b3a7D6B59D36215A7e37da',
