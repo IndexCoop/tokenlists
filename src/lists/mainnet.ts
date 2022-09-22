@@ -35,7 +35,7 @@ const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     symbol: 'MVI',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0xfe712251173A2cd5F5bE2B46Bb528328EA3565E1/logo.png',
+      'https://assets.coingecko.com/coins/images/14684/small/MVI_logo.png?1617776444',
   },
   {
     address: '0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd',
