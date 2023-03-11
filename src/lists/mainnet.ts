@@ -74,6 +74,24 @@ const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
       'https://docs.indexcoop.com/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-MJY-enmfAw5ra2s-8QX%2F-MfEZuJUJyjkQZ2a5IU1%2F-MfG4JTent3kLJyOu6Dk%2FBED%20logo.jpg?alt=media&token=ad530093-ab26-439c-ab38-e43b03c4aec9',
   },
   {
+    address: '0x341c05c0E9b33C0E38d64de76516b2Ce970bB3BE',
+    chainId: 1,
+    name: 'Diversified Staked ETH Index',
+    symbol: 'dsETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/28751/small/dsETH-logo.png?1673929867',
+  },
+  {
+    address: '0x36c833Eed0D376f75D1ff9dFDeE260191336065e',
+    chainId: 1,
+    name: 'Gitcoin Staked ETH Index',
+    symbol: 'gtcETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/29171/small/gtcETH-token-logo.png?1677060167',
+  },
+  {
     address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
     chainId: 1,
     name: 'Interest Compounding ETH',
