@@ -230,6 +230,14 @@ const MAINNET_TOKENS: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/ampl.jpg',
   },
   {
+    address: '0x5283d291dbcf85356a21ba090e6db59121208b44',
+    chainId: 1,
+    name: 'Blur',
+    symbol: 'BLUR',
+    decimals: 18,
+    logoURI: 'https://assets.coingecko.com/coins/images/28453/large/blur.png',
+  },
+  {
     address: '0xc00e94Cb662C3520282E6f5717214004A7f26888',
     chainId: 1,
     name: 'Compound',
@@ -9645,12 +9653,12 @@ const MAINNET_TOKENS: TokenData[] = [
   },
   {
     chainId: 1,
-    address: '0x15d4c048f83bd7e37d49ea4c83a07267ec4203da',
+    address: '0xd1d2eb1b1e90b638588728b4130137d262c87cae',
     name: 'Gala',
     symbol: 'GALA',
     decimals: 8,
     logoURI:
-      'https://assets.coingecko.com/coins/images/12493/thumb/GALA-COINGECKO.png?1600233435',
+      'https://assets.coingecko.com/coins/images/12493/large/GALA-COINGECKO.png',
   },
   {
     chainId: 1,
