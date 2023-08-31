@@ -141,8 +141,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     chainId: 1,
     name: '21.co Wrapped Cardano',
     symbol: '21ADA',
-    // FIXME: ???
-    decimals: 0,
+    decimals: 6,
     logoURI: '',
   },
   {
