@@ -1499,7 +1499,7 @@ const MAINNET_TOKENS: TokenData[] = [
     symbol: 'MATIC',
     decimals: 18,
     logoURI:
-      'https://raw.githubusercontent.com/sushiswap/icons/master/token/matic.jpg',
+      'https://assets.coingecko.com/coins/images/4713/large/matic-token-icon.png',
   },
   {
     address: '0x19D97D8fA813EE2f51aD4B4e04EA08bAf4DFfC28',
