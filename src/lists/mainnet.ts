@@ -118,7 +118,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped Bitcoin',
     symbol: '21BTC',
     decimals: 8,
-    logoURI: 'https://app.indexcoop.com/assets/21btc.png',
+    logoURI: 'https://index-app.vercel.app/assets/21btc.png',
   },
   {
     address: '0x1bE9d03BfC211D83CFf3ABDb94A75F9Db46e1334',
@@ -126,7 +126,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped BNB',
     symbol: '21BNB',
     decimals: 8,
-    logoURI: 'https://app.indexcoop.com/assets/21bnb.png',
+    logoURI: 'https://index-app.vercel.app/assets/21bnb.png',
   },
   {
     address: '0xFf4927e04c6a01868284F5C3fB9cba7F7ca4aeC0',
@@ -134,7 +134,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped BitcoinCash',
     symbol: '21BCH',
     decimals: 8,
-    logoURI: 'https://app.indexcoop.com/assets/21bch.png',
+    logoURI: 'https://index-app.vercel.app/assets/21bch.png',
   },
   {
     address: '0x9c05d54645306d4C4EAd6f75846000E1554c0360',
@@ -142,7 +142,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped Cardano',
     symbol: '21ADA',
     decimals: 6,
-    logoURI: 'https://app.indexcoop.com/assets/21ada.png',
+    logoURI: 'https://index-app.vercel.app/assets/21ada.png',
   },
   {
     address: '0x9F2825333aa7bC2C98c061924871B6C016e385F3',
@@ -150,7 +150,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped Litecoin',
     symbol: '21LTC',
     decimals: 8,
-    logoURI: 'https://app.indexcoop.com/assets/21ltc.png',
+    logoURI: 'https://index-app.vercel.app/assets/21ltc.png',
   },
   {
     address: '0xF4ACCD20bFED4dFFe06d4C85A7f9924b1d5dA819',
@@ -158,7 +158,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped Polkadot',
     symbol: '21DOT',
     decimals: 10,
-    logoURI: 'https://app.indexcoop.com/assets/21dot.png',
+    logoURI: 'https://index-app.vercel.app/assets/21dot.png',
   },
   {
     address: '0xb80a1d87654BEf7aD8eB6BBDa3d2309E31D4e598',
@@ -166,7 +166,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped Solana',
     symbol: '21SOL',
     decimals: 9,
-    logoURI: 'https://app.indexcoop.com/assets/21sol.png',
+    logoURI: 'https://index-app.vercel.app/assets/21sol.png',
   },
   {
     address: '0x0d3bd40758dF4F79aaD316707FcB809CD4815Ffe',
@@ -174,7 +174,7 @@ const WRAPPED_21CO_TOKENS: TokenData[] = [
     name: '21.co Wrapped XRP',
     symbol: '21XRP',
     decimals: 6,
-    logoURI: 'https://app.indexcoop.com/assets/21xrp.png',
+    logoURI: 'https://index-app.vercel.app/assets/21xrp.png',
   },
 ];
 
