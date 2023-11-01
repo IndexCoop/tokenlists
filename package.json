@@ -1,6 +1,6 @@
 {
   "name": "@indexcoop/tokenlists",
-  "version": "0.0.0-development",
+  "version": "1.29.3",
   "description": "token lists used by Index Coop",
   "main": "./build/cjs/index.js",
   "types": "./build/cjs/index.d.ts",
