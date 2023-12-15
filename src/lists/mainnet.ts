@@ -34774,6 +34774,15 @@ const MAINNET_TOKENS: TokenData[] = [
   },
   {
     chainId: 1,
+    address: '0xf1c9acdc66974dfb6decb12aa385b9cd01190e38',
+    name: 'Staked ETH',
+    symbol: 'osETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/33117/large/Frame_27513839.png',
+  },
+  {
+    chainId: 1,
     address: '0x4e30910845f0cb4f66781b35c832eafc09774022',
     name: 'Mars Token',
     symbol: 'OMT',
