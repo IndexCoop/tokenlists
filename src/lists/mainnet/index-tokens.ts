@@ -11,6 +11,15 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
       'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FAHyFusKCIRPu5o9FhZkk%2FGMI_LOGO-07.svg?alt=media&token=536da550-6d40-4f6c-b115-3b52a6365d64',
   },
   {
+    address: '0x55b2CFcfe99110C773f00b023560DD9ef6C8A13B',
+    chainId: 1,
+    name: 'Index Coop CoinDesk ETH Trend Index',
+    symbol: 'cdETI',
+    decimals: 18,
+    logoURI:
+      'https://uploads-ssl.webflow.com/62e3ff7a08cb1968bf057388/651f04818f458f918171c84d_cdETI-logo.svg',
+  },
+  {
     address: '0x1B5E16C5b20Fb5EE87C61fE9Afe735Cca3B21A65',
     chainId: 1,
     name: 'Index Coop Large Cap Index',
