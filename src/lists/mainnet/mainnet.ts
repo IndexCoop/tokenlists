@@ -74,6 +74,15 @@ export const MainnetTokens: TokenData[] = [
       'https://raw.githubusercontent.com/sushiswap/icons/master/token/dai.jpg',
   },
   {
+    address: '0xA35b1B31Ce002FBF2058D22F30f95D405200A15b',
+    chainId: 1,
+    name: 'Stader ETHx',
+    symbol: 'ETHx',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/30870/large/staderx.png',
+  },
+  {
     address: '0x57Ab1ec28D129707052df4dF418D58a2D46d5f51',
     chainId: 1,
     name: 'Synth sUSD',
@@ -47322,6 +47331,15 @@ export const MainnetTokens: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://assets.coingecko.com/coins/images/21458/thumb/snap.png?1639291894',
+  },
+  {
+    address: '0xf951E335afb289353dc249e82926178EaC7DEd78',
+    chainId: 1,
+    name: 'Swell Ethereum',
+    symbol: 'swETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/30326/large/_lB7zEtS_400x400.jpg',
   },
   {
     chainId: 1,
