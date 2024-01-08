@@ -1,3 +1,6 @@
+import {INDEX_COOP_MAINNET_TOKENS, WRAPPED_21CO_TOKENS} from '../lists/mainnet';
+import {MAINNET} from '../lists/mainnet/mainnet';
+import {MAINNET_TOKENS} from '../lists/mainnet';
 import {
   TokenData,
   ArbitrumTokens,
@@ -74,5 +77,17 @@ describe('unique tokens', () => {
       uniqueByAddress(OptimismTokens).length
     );
     // expect(IndexCoopOptimismTokens.length).toEqual(uniqueByAddress(IndexCoopOptimismTokens).length);
+  });
+});
+
+describe('mainnet tokens', () => {
+  test('include all added tokens', () => {
+    const total =
+      MAINNET.length +
+      INDEX_COOP_MAINNET_TOKENS.length +
+      WRAPPED_21CO_TOKENS.length;
+    console.log(MainnetTokens.length, total);
+    expect(MainnetTokens.length).toEqual(MAINNET_TOKENS.length);
+    expect(MainnetTokens.length).toEqual(total);
   });
 });

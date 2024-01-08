@@ -2,6 +2,15 @@
   "extends": "./tsconfig.esm.json",
   "compilerOptions": {
     "module": "CommonJS",
-    "outDir": "./build/cjs"
+    "moduleResolution": "node",
+    "outDir": "./build/cjs",
+    "include": ["./src"],
+    "exclude": [
+      "node_modules",
+      "**/tests/*",
+      "**/__tests__/*",
+      "**/test/*",
+      "**/__test__/*"
+    ]
   }
 }
