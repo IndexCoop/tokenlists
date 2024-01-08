@@ -9,5 +9,3 @@ export const MAINNET_TOKENS = [
   ...WRAPPED_21CO_TOKENS,
   ...INDEX_COOP_MAINNET_TOKENS,
 ];
-
-export default MAINNET_TOKENS;

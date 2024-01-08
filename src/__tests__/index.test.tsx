@@ -1,16 +1,13 @@
 import {
   TokenData,
   ArbitrumTokens,
-  // IndexCoopArbitrumTokens,
   AvalancheTokens,
-  // IndexCoopAvalancheTokens,
   MainnetTokens,
   IndexCoopMainnetTokens,
   MaticTokens,
   IndexCoopMaticTokens,
   OptimismTokens,
-  // IndexCoopOptimismTokens,
-} from '../index';
+} from '../';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const findDuplicatesByAddress = (tokens: TokenData[]) => {

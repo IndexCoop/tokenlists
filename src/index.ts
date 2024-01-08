@@ -15,7 +15,7 @@
 
 import ARBITRUM_TOKENS, {INDEX_COOP_ARBITRUM_TOKENS} from './lists/arbitrum';
 import AVALANCHE_TOKENS, {INDEX_COOP_AVALANCHE_TOKENS} from './lists/avalanche';
-import MAINNET_TOKENS, {INDEX_COOP_MAINNET_TOKENS} from './lists/mainnet';
+import {INDEX_COOP_MAINNET_TOKENS, MAINNET_TOKENS} from './lists/mainnet';
 import MATIC_TOKENS, {INDEX_COOP_MATIC_TOKENS} from './lists/matic';
 import OPTIMISM_TOKENS, {INDEX_COOP_OPTIMISM_TOKENS} from './lists/optimism';
 
