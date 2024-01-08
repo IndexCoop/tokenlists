@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "noImplicitAny": true
+  },
+  "include": ["./src"],
+  "exclude": [
+    "node_modules",
+    "**/tests/*",
+    "**/__tests__/*",
+    "**/test/*",
+    "**/__test__/*"
+  ]
+}
