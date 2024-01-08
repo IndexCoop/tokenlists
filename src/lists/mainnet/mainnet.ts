@@ -1,6 +1,6 @@
 import {TokenData} from '../..';
 
-export const MainnetTokens: TokenData[] = [
+export const MAINNET: TokenData[] = [
   {
     address: '0xc18360217d8f7ab5e7c516566761ea12ce7f9d72',
     chainId: 1,
