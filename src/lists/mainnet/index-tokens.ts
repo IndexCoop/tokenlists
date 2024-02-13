@@ -20,6 +20,16 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
       'https://uploads-ssl.webflow.com/62e3ff7a08cb1968bf057388/651f04818f458f918171c84d_cdETI-logo.svg',
   },
   {
+    address: '0x31F13653433B6c48fD5B19945cD9ab20621F8d4B',
+    chainId: 1,
+    name: 'Index Coop Ethereum 2x Index',
+    symbol: 'ETH2X',
+    decimals: 18,
+    // TODO:
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x3Ad707dA309f3845cd602059901E39C4dcd66473/logo.png',
+  },
+  {
     address: '0x1B5E16C5b20Fb5EE87C61fE9Afe735Cca3B21A65',
     chainId: 1,
     name: 'Index Coop Large Cap Index',
