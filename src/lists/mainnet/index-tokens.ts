@@ -11,6 +11,16 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
       'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FAHyFusKCIRPu5o9FhZkk%2FGMI_LOGO-07.svg?alt=media&token=536da550-6d40-4f6c-b115-3b52a6365d64',
   },
   {
+    address: '',
+    chainId: 1,
+    name: 'Index Coop Bitcoin 2x Index',
+    symbol: 'BTC2X',
+    decimals: 18,
+    // TODO:
+    logoURI:
+      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x0B498ff89709d3838a063f1dFA463091F9801c2b/logo.png',
+  },
+  {
     address: '0x55b2CFcfe99110C773f00b023560DD9ef6C8A13B',
     chainId: 1,
     name: 'Index Coop CoinDesk ETH Trend Index',
