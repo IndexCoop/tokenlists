@@ -106,5 +106,7 @@ When these are complete, update the `Usage` list above to show what lists are av
 For now releasing a new version has to be done manually - as the publish workflow is broken. :warning:
 
 - Add new version number in the `package.json`
+- Run `npm run lint`
+- Run `npm test`
 - Run `npm run build`
 - Run `npm publish`
