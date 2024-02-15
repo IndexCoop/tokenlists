@@ -16,9 +16,7 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     name: 'Index Coop Bitcoin 2x Index',
     symbol: 'BTC2X',
     decimals: 18,
-    // TODO:
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x0B498ff89709d3838a063f1dFA463091F9801c2b/logo.png',
+    logoURI: 'https://index-app.vercel.app/assets/btc2x.png',
   },
   {
     address: '0x55b2CFcfe99110C773f00b023560DD9ef6C8A13B',
@@ -35,9 +33,7 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     name: 'Index Coop Ethereum 2x Index',
     symbol: 'ETH2X',
     decimals: 18,
-    // TODO:
-    logoURI:
-      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/polygon/assets/0x3Ad707dA309f3845cd602059901E39C4dcd66473/logo.png',
+    logoURI: 'https://index-app.vercel.app/assets/eth2x.png',
   },
   {
     address: '0x1B5E16C5b20Fb5EE87C61fE9Afe735Cca3B21A65',
