@@ -11,7 +11,7 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
       'https://docs.indexcoop.com/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJY-enmfAw5ra2s-8QX%2Fuploads%2FAHyFusKCIRPu5o9FhZkk%2FGMI_LOGO-07.svg?alt=media&token=536da550-6d40-4f6c-b115-3b52a6365d64',
   },
   {
-    address: '',
+    address: '0x35AA217f55BdB014AeBF0c7527296558a2D250c2',
     chainId: 1,
     name: 'Index Coop Bitcoin 2x Index',
     symbol: 'BTC2X',
