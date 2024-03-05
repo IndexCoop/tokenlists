@@ -38,3 +38,5 @@ export const MaticTokens = MATIC_TOKENS;
 export const IndexCoopMaticTokens = INDEX_COOP_MATIC_TOKENS;
 export const OptimismTokens = OPTIMISM_TOKENS;
 export const IndexCoopOptimismTokens = INDEX_COOP_OPTIMISM_TOKENS;
+
+export * from './utils';
