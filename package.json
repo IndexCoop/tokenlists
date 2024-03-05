@@ -1,6 +1,6 @@
 {
   "name": "@indexcoop/tokenlists",
-  "version": "1.37.0",
+  "version": "1.38.0",
   "description": "Token lists used by Index Coop",
   "files": [
     "dist"
