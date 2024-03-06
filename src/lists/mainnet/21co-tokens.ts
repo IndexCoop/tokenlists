@@ -65,4 +65,12 @@ export const WRAPPED_21CO_TOKENS: TokenData[] = [
     decimals: 6,
     logoURI: 'https://index-app.vercel.app/assets/21xrp.png',
   },
+  {
+    address: '0x399508A43d7E2b4451cd344633108b4d84b33B03',
+    chainId: 1,
+    name: '21.co Wrapped AVAX',
+    symbol: '21AVAX',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/21avax.png',
+  },
 ];
