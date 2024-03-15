@@ -7854,7 +7854,7 @@ export const MAINNET: TokenData[] = [
     symbol: 'aEthWBTC',
     decimals: 8,
     logoURI:
-      'https://assets.coingecko.com/coins/images/14244/thumb/aWBTC.41453c2a.png?1615528721',
+      'https://assets.coingecko.com/coins/images/14244/large/aWBTC.41453c2a.png?1615528721',
   },
   {
     chainId: 1,
@@ -20991,7 +20991,7 @@ export const MAINNET: TokenData[] = [
     symbol: 'aEthWETH',
     decimals: 18,
     logoURI:
-      'https://assets.coingecko.com/coins/images/17238/thumb/aWETH_2x.png?1626940782',
+      'https://assets.coingecko.com/coins/images/17238/large/aWETH_2x.png?1626940782',
   },
   {
     chainId: 1,
