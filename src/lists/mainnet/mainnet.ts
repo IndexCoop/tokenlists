@@ -7849,6 +7849,15 @@ export const MAINNET: TokenData[] = [
   },
   {
     chainId: 1,
+    address: '0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8',
+    name: 'Aave Ethereum WBTC',
+    symbol: 'aEthWBTC',
+    decimals: 8,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14244/large/aWBTC.41453c2a.png?1615528721',
+  },
+  {
+    chainId: 1,
     address: '0x40897c872214303b6f479a37e549ee1516b264a2',
     name: 'FLETA',
     symbol: 'FLETA',
@@ -20974,6 +20983,15 @@ export const MAINNET: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://assets.coingecko.com/coins/images/17238/thumb/aWETH_2x.png?1626940782',
+  },
+  {
+    chainId: 1,
+    address: '0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8',
+    name: 'Aave Ethereum WETH',
+    symbol: 'aEthWETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17238/large/aWETH_2x.png?1626940782',
   },
   {
     chainId: 1,
