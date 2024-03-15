@@ -20977,6 +20977,15 @@ export const MAINNET: TokenData[] = [
   },
   {
     chainId: 1,
+    address: '0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8',
+    name: 'Aave Ethereum WETH',
+    symbol: 'aEthWETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/17238/thumb/aWETH_2x.png?1626940782',
+  },
+  {
+    chainId: 1,
     address: '0x64fb96d0395f6bf105f35233911e3df2c5bf4ce8',
     name: 'Elastic Bitcoin',
     symbol: 'XBT',
