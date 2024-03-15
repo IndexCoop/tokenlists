@@ -63,7 +63,7 @@
     "react-dom": "^18.2.0",
     "react-test-renderer": "^18.2.0",
     "rimraf": "^3",
-    "semantic-release": "^19.0.5",
+    "semantic-release": "23.0.3",
     "ts-jest": "^28.0.8",
     "tsup": "^8.0.1",
     "typescript": "^4.8.2"
