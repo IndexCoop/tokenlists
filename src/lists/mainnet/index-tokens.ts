@@ -125,6 +125,14 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
       'https://assets.coingecko.com/coins/images/29171/small/gtcETH-token-logo.png?1677060167',
   },
   {
+    address: '0xc4506022Fb8090774E8A628d5084EED61D9B99Ee',
+    chainId: 1,
+    name: 'High Yield ETH Index',
+    symbol: 'hyETH',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/hyeth.png',
+  },
+  {
     address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
     chainId: 1,
     name: 'Interest Compounding ETH',
