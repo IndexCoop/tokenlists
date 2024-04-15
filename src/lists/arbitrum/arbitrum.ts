@@ -669,13 +669,13 @@ export const ARBITRUM: TokenData[] = [
     logoURI: 'https://etherscan.io/token/images/unitynetwork_32.png',
   },
   {
-    name: 'USD Coin (Arb1)',
-    address: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
+    name: 'USD Coin',
+    address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
     symbol: 'USDC',
     decimals: 6,
     chainId: 42161,
     logoURI:
-      'https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389',
+      'https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png',
   },
   {
     name: 'Tether USD',
@@ -684,7 +684,7 @@ export const ARBITRUM: TokenData[] = [
     decimals: 6,
     chainId: 42161,
     logoURI:
-      'https://assets.coingecko.com/coins/images/325/thumb/Tether-logo.png?1598003707',
+      'https://assets.coingecko.com/coins/images/325/large/Tether-logo.png',
   },
   {
     name: 'dForce USD',
@@ -727,7 +727,7 @@ export const ARBITRUM: TokenData[] = [
     decimals: 8,
     chainId: 42161,
     logoURI:
-      'https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744',
+      'https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png',
   },
   {
     name: 'Wrapped CHI',
@@ -744,8 +744,7 @@ export const ARBITRUM: TokenData[] = [
     symbol: 'WETH',
     decimals: 18,
     chainId: 42161,
-    logoURI:
-      'https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295',
+    logoURI: 'https://assets.coingecko.com/coins/images/2518/large/weth.png',
   },
   {
     name: 'Sperax',
