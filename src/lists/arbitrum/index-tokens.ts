@@ -2,6 +2,22 @@ import {TokenData} from '../../types';
 
 export const INDEX_COOP_ARBITRUM_TOKENS: TokenData[] = [
   {
+    address: '0xfa69F1e2e48B411b98a105fb693fb381764Dc857',
+    chainId: 42161,
+    name: ' Index Coop Bitcoin 2x Index',
+    symbol: 'BTC2X',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/btc2x.png',
+  },
+  {
+    address: '0x53765a7cF4933bc939e32fA560FFf3D8E1d63473',
+    chainId: 42161,
+    name: ' Index Coop Bitcoin 3x Index',
+    symbol: 'BTC3X',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/btc3x.png',
+  },
+  {
     address: '0x67d2373f0321Cd24a1b58e3c81fC1b6Ef15B205C',
     chainId: 42161,
     name: 'Index Coop Ethereum 2x Index',
