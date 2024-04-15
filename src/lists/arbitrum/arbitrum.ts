@@ -1,8 +1,6 @@
-import {TokenData} from '..';
+import {TokenData} from '../../types';
 
-const INDEX_COOP_ARBITRUM_TOKENS: TokenData[] = [];
-
-const ARBITRUM_TOKENS: TokenData[] = [
+export const ARBITRUM: TokenData[] = [
   {
     name: '0xBitcoin Token',
     address: '0x7cb16cb78ea464aD35c8a50ABF95dff3c9e09d5d',
@@ -671,13 +669,13 @@ const ARBITRUM_TOKENS: TokenData[] = [
     logoURI: 'https://etherscan.io/token/images/unitynetwork_32.png',
   },
   {
-    name: 'USD Coin (Arb1)',
-    address: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
+    name: 'USD Coin',
+    address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
     symbol: 'USDC',
     decimals: 6,
     chainId: 42161,
     logoURI:
-      'https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389',
+      'https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png',
   },
   {
     name: 'Tether USD',
@@ -686,7 +684,7 @@ const ARBITRUM_TOKENS: TokenData[] = [
     decimals: 6,
     chainId: 42161,
     logoURI:
-      'https://assets.coingecko.com/coins/images/325/thumb/Tether-logo.png?1598003707',
+      'https://assets.coingecko.com/coins/images/325/large/Tether-logo.png',
   },
   {
     name: 'dForce USD',
@@ -729,7 +727,7 @@ const ARBITRUM_TOKENS: TokenData[] = [
     decimals: 8,
     chainId: 42161,
     logoURI:
-      'https://assets.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1548822744',
+      'https://assets.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png',
   },
   {
     name: 'Wrapped CHI',
@@ -746,8 +744,7 @@ const ARBITRUM_TOKENS: TokenData[] = [
     symbol: 'WETH',
     decimals: 18,
     chainId: 42161,
-    logoURI:
-      'https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295',
+    logoURI: 'https://assets.coingecko.com/coins/images/2518/large/weth.png',
   },
   {
     name: 'Sperax',
@@ -818,8 +815,4 @@ const ARBITRUM_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765',
   },
-  ...INDEX_COOP_ARBITRUM_TOKENS,
 ];
-
-export {INDEX_COOP_ARBITRUM_TOKENS};
-export default ARBITRUM_TOKENS;
