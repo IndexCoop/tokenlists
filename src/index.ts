@@ -19,14 +19,7 @@ import {INDEX_COOP_MAINNET_TOKENS, MAINNET_TOKENS} from './lists/mainnet';
 import MATIC_TOKENS, {INDEX_COOP_MATIC_TOKENS} from './lists/matic';
 import OPTIMISM_TOKENS, {INDEX_COOP_OPTIMISM_TOKENS} from './lists/optimism';
 
-export interface TokenData {
-  chainId: number;
-  address: string;
-  name: string;
-  symbol: string;
-  decimals: number;
-  logoURI: string;
-}
+export * from './types';
 
 export const ArbitrumTokens = ARBITRUM_TOKENS;
 export const IndexCoopArbitrumTokens = INDEX_COOP_ARBITRUM_TOKENS;
