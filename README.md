@@ -91,6 +91,7 @@ File should include at a minimum:
 
 - An exported `INDEX_COOP_NEW_NETWORK_TOKENS` TokenData array, containing only IndexCoop tokens on that network.
 - A default exported `NEW_NETWORK_TOKENS` TokenData array, containing all tokens on that network, with the last item appended being the aforementioned `INDEX_COOP_[NETWORK]_TOKENS` array.
+- Make sure to use a folder from now on (separating index and network tokens)
 
 After this, `index.ts` should be updated to export the newly created lists as shown below:
 
