@@ -1,8 +1,6 @@
-import {TokenData} from '..';
+import {TokenData} from '../../types';
 
-const INDEX_COOP_ARBITRUM_TOKENS: TokenData[] = [];
-
-const ARBITRUM_TOKENS: TokenData[] = [
+export const ARBITRUM: TokenData[] = [
   {
     name: '0xBitcoin Token',
     address: '0x7cb16cb78ea464aD35c8a50ABF95dff3c9e09d5d',
@@ -818,8 +816,4 @@ const ARBITRUM_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/5013/thumb/sUSD.png?1616150765',
   },
-  ...INDEX_COOP_ARBITRUM_TOKENS,
 ];
-
-export {INDEX_COOP_ARBITRUM_TOKENS};
-export default ARBITRUM_TOKENS;
