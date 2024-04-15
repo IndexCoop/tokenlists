@@ -17,4 +17,20 @@ export const INDEX_COOP_ARBITRUM_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI: 'https://index-app.vercel.app/assets/eth3x.png',
   },
+  {
+    address: '0xCaD2B03e289260cCF59209CF059778342d1Cf33b',
+    chainId: 42161,
+    name: 'Index Coop Inverse Bitcoin Index',
+    symbol: 'iBTC1X',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/ibtc1x.png',
+  },
+  {
+    address: '0xaa61DDA963d0Cf89dA3C13FE635C84a1B8B6B988',
+    chainId: 42161,
+    name: 'Index Coop Inverse Ethereum Index',
+    symbol: 'iETH1X',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/ieth1x.png',
+  },
 ];
