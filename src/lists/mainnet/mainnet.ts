@@ -20518,6 +20518,15 @@ export const MAINNET: TokenData[] = [
   },
   {
     chainId: 1,
+    address: '0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE',
+    name: 'Beam',
+    symbol: 'BEAM',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/32417/large/chain-logo.png?1698114384',
+  },
+  {
+    chainId: 1,
     address: '0x016ee7373248a80bde1fd6baa001311d233b3cfa',
     name: '3X Short Bitcoin To',
     symbol: 'BEAR',
