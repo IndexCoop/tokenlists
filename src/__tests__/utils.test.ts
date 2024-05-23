@@ -10,7 +10,7 @@ describe('getIndexTokenData', () => {
   test('returns token data for arbitrum', async () => {
     const data = getIndexTokenData('ETH2X', 42161);
     expect(data).not.toBeNull();
-    expect(data?.address).toBe('0x67d2373f0321Cd24a1b58e3c81fC1b6Ef15B205C');
+    expect(data?.address).toBe('0x26d7D3728C6bb762a5043a1d0CeF660988Bca43C');
     expect(data?.symbol).toBe('ETH2X');
   });
 
