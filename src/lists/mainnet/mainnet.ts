@@ -47476,4 +47476,49 @@ export const MAINNET: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/24383/small/apecoin.jpg',
   },
+  {
+    address: '0xf7906F274c174A52d444175729E3fa98f9bde285',
+    chainId: 1,
+    name: 'PT Renzo ezETH 26DEC2024',
+    symbol: 'PT-ezETH-26DEC2024',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728',
+  },
+  {
+    address: '0x1c085195437738d73d75DC64bC5A3E098b7f93b1',
+    chainId: 1,
+    name: 'PT ether.fi weETH 26SEP2024',
+    symbol: 'PT-weETH-26SEP2024',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728',
+  },
+  {
+    address: '0x6ee2b5E19ECBa773a352E5B21415Dc419A700d1d',
+    chainId: 1,
+    name: 'PT ether.fi weETH 26DEC2024',
+    symbol: 'PT-weETH-26DEC2024',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728',
+  },
+  {
+    address: '0xa0d3707c569ff8c87fa923d3823ec5d81c98be78',
+    chainId: 1,
+    name: 'Instadapp ETH v2',
+    symbol: 'iETHv2',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/29704/large/iETH.png?1696528636',
+  },
+  {
+    address: '0x28F77208728B0A45cAb24c4868334581Fe86F95B',
+    chainId: 1,
+    name: 'Across V2 Wrapped Ether LP Token',
+    symbol: 'Av2-WETH-LP',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/28161/large/across-200x200.png?1696527165',
+  },
 ];
