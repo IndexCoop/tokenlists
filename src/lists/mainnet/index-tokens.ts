@@ -150,4 +150,12 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/25071/small/JPG-token-logo-01.png?1650242041',
   },
+  {
+    address: '0x7f5f1A44dd6f88cCb54Fe879e144dF644A4aDa24',
+    chainId: 1,
+    name: 'Real World Asset Index',
+    symbol: 'RWA',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/rwa.png',
+  },
 ];
