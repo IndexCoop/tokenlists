@@ -47521,4 +47521,13 @@ export const MAINNET: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/28161/large/across-200x200.png?1696527165',
   },
+  {
+    address: '0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0',
+    chainId: 1,
+    name: 'Re7 WETH',
+    symbol: 'Re7WETH',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/29837/large/2022-official-morpho-token.png',
+  },
 ];
