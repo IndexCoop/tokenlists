@@ -138,7 +138,7 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     name: 'High Yield ETH Index PRT',
     symbol: 'prtHyETH',
     decimals: 18,
-    logoURI: 'https://index-app.vercel.app/assets/hyeth.png',
+    logoURI: 'https://index-app.vercel.app/assets/hyeth-prt-logo.svg',
   },
   {
     address: '0xBe03026716a4D5E0992F22A3e6494b4F2809a9C6',
@@ -146,7 +146,7 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     name: 'High Yield ETH Index Staked PRT',
     symbol: 'sPrtHyETH',
     decimals: 18,
-    logoURI: 'https://index-app.vercel.app/assets/hyeth.png',
+    logoURI: 'https://index-app.vercel.app/assets/hyeth-prt-logo.svg',
   },
   {
     address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
