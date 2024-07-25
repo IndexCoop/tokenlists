@@ -47530,4 +47530,13 @@ export const MAINNET: TokenData[] = [
     logoURI:
       'https://assets.coingecko.com/coins/images/29837/large/2022-official-morpho-token.png',
   },
+  {
+    address: '0x57e114B691Db790C35207b2e685D4A43181e6061',
+    chainId: 1,
+    name: 'Ethena',
+    symbol: 'ENA',
+    decimals: 18,
+    logoURI:
+      'https://coin-images.coingecko.com/coins/images/36530/large/ethena.png?1711701436',
+  },
 ];
