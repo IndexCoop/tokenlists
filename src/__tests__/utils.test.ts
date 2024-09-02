@@ -84,6 +84,14 @@ describe('getTokenData', () => {
     expect(data?.symbol).toEqual('USDC');
   });
 
+  test('returns token data for base', async () => {
+    const data = getTokenData('USDC', 8453);
+    expect(data).not.toBeNull();
+    expect(data?.address).toEqual('0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913');
+    expect(data?.decimals).toEqual(6);
+    expect(data?.symbol).toEqual('USDC');
+  });
+
   test('returns null for an unsupported chain', async () => {
     const data = getTokenData('USDC', 11155111);
     expect(data).toBeNull();

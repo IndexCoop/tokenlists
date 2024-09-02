@@ -1,6 +1,8 @@
 import {
   ArbitrumTokens,
+  BaseTokens,
   IndexCoopArbitrumTokens,
+  IndexCoopBaseTokens,
   IndexCoopMainnetTokens,
   MainnetTokens,
   TokenData,
@@ -16,6 +18,9 @@ function getIndexTokenList(chainId: number) {
     case 1:
       tokenlist = IndexCoopMainnetTokens;
       break;
+    case 8453:
+      tokenlist = IndexCoopBaseTokens;
+      break;
     case 42161:
       tokenlist = IndexCoopArbitrumTokens;
       break;
@@ -28,6 +33,9 @@ function getTokenList(chainId: number) {
   switch (chainId) {
     case 1:
       tokenlist = MainnetTokens;
+      break;
+    case 8453:
+      tokenlist = BaseTokens;
       break;
     case 42161:
       tokenlist = ArbitrumTokens;
