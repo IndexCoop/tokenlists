@@ -62,7 +62,43 @@ export const MAINNET: TokenData[] = [
     symbol: 'USDC',
     decimals: 6,
     logoURI:
-      'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389',
+      'https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png',
+  },
+  {
+    address: '0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c',
+    chainId: 1,
+    name: 'Aave Ethereum USDC',
+    symbol: 'aEthUSDC',
+    decimals: 6,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14318/large/aUSDC.e260d492.png',
+  },
+  {
+    address: '0xBcca60bB61934080951369a648Fb03DF4F96263C',
+    chainId: 1,
+    name: 'Aave interest bearing USDC',
+    symbol: 'aUSDC',
+    decimals: 6,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/14318/large/aUSDC.e260d492.png',
+  },
+  {
+    address: '0xc3d688B66703497DAA19211EEdff47f25384cdc3',
+    chainId: 1,
+    name: 'Compound USDC',
+    symbol: 'cUSDCv3',
+    decimals: 6,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/9442/large/Compound_USDC.png',
+  },
+  {
+    address: '0xdd0f28e19C1780eb6396170735D45153D261490d',
+    chainId: 1,
+    name: 'Gauntlet USDC Prime',
+    symbol: 'gtUSDC',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png',
   },
   {
     address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
@@ -12998,15 +13034,6 @@ export const MAINNET: TokenData[] = [
     decimals: 18,
     logoURI:
       'https://assets.coingecko.com/coins/images/10792/thumb/goldblock.PNG?1585523631',
-  },
-  {
-    chainId: 1,
-    address: '0xbcca60bb61934080951369a648fb03df4f96263c',
-    name: 'Aave USDC',
-    symbol: 'AUSDC',
-    decimals: 6,
-    logoURI:
-      'https://assets.coingecko.com/coins/images/14318/thumb/aUSDC.e260d492.png?1615527797',
   },
   {
     chainId: 1,
