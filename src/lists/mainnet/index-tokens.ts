@@ -174,4 +174,13 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     decimals: 18,
     logoURI: 'https://index-app.vercel.app/assets/rwa.png',
   },
+  {
+    // FIXME: Use correct USDCY address
+    address: '0x0000000000000000000000000000000000000000',
+    chainId: 1,
+    name: 'USDCY Index',
+    symbol: 'USDCY',
+    decimals: 18,
+    logoURI: 'https://index-app.vercel.app/assets/usdcy.png',
+  },
 ];
