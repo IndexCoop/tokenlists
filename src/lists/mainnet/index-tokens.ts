@@ -175,12 +175,11 @@ export const INDEX_COOP_MAINNET_TOKENS: TokenData[] = [
     logoURI: 'https://index-app.vercel.app/assets/rwa.png',
   },
   {
-    // FIXME: Use correct USDCY address
-    address: '0x0000000000000000000000000000000000000000',
+    address: '0x54EE8A49155F701F0d5Ff088CD36fbBF1a5B9f44',
     chainId: 1,
-    name: 'USDCY Index',
-    symbol: 'USDCY',
+    name: 'The USDC Yield Index',
+    symbol: 'icUSD',
     decimals: 18,
-    logoURI: 'https://index-app.vercel.app/assets/usdcy.png',
+    logoURI: 'https://cdn.indexcoop.com/icusd.svg',
   },
 ];
