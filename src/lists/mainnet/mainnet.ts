@@ -47504,6 +47504,15 @@ export const MAINNET: TokenData[] = [
       'https://assets.coingecko.com/coins/images/24383/small/apecoin.jpg',
   },
   {
+    address: '0x7aa68E84bCD8d1B4C9e10B1e565DB993f68a3E09',
+    chainId: 1,
+    name: 'PT Kelp Gain 26DEC2024',
+    symbol: 'PT-agETH-26DEC2024',
+    decimals: 18,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728',
+  },
+  {
     address: '0xf7906F274c174A52d444175729E3fa98f9bde285',
     chainId: 1,
     name: 'PT Renzo ezETH 26DEC2024',
