@@ -1260,6 +1260,19 @@ export default {
         'https://assets.coingecko.com/coins/images/30326/large/_lB7zEtS_400x400.jpg',
       tags: ['component'],
     },
+    {
+      chainId: 1,
+      address: '0xA0D3707c569ff8C87FA923d3823eC5D81c98Be78',
+      name: 'Instadapp ETH v2',
+      symbol: 'iETHv2',
+      decimals: 18,
+      extensions: {
+        status: null,
+        coingeckoId: 'instadapp-eth-v2',
+      },
+      logoURI: 'https://assets.coingecko.com/coins/images/29704/large/iETH.png',
+      tags: ['component'],
+    },
     // --------------- Currency Tokens ---------------
     {
       name: 'Dai Stablecoin',

@@ -1,8 +1,8 @@
 # Index Coop Tokenlist
 [![Bun](https://img.shields.io/badge/Bun_v1.1.29-00a5a8?logo=bun&logoColor=fff)](#)
-![release](https://img.shields.io/github/v/release/tokdaniel/indexcoop-tokenlist)
-![license](https://img.shields.io/github/license/tokdaniel/indexcoop-tokenlist)
-![build](https://img.shields.io/github/actions/workflow/status/tokdaniel/indexcoop-tokenlist/main.yml)
+![release](https://img.shields.io/github/v/release/IndexCoop/tokenlists)
+![license](https://img.shields.io/github/license/IndexCoop/tokenlists)
+![build](https://img.shields.io/github/actions/workflow/status/IndexCoop/tokenlists/main.yml)
 ![coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Ftokdaniel%2Fa7c9182c954b150894614d212eb54520%2Fraw%2Findexcoop-tokenlist-cobertura-coverage.json)
 ![tests passed](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Ftokdaniel%2Fa7c9182c954b150894614d212eb54520%2Fraw%2Findexcoop-tokenlist-junit-tests.json)
 
