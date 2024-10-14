@@ -21,7 +21,15 @@ import type {
   ProductRevenueToken,
 } from './types';
 import tokenlist from './tokenlist.json';
-import { isAddress, checksumAddress } from 'viem';
+import {
+  isAddress,
+  checksumAddress,
+  createPublicClient,
+  http,
+  zeroAddress,
+} from 'viem';
+import setTokenABI from './SetToken.abi.json';
+import type { rpcUrls } from '@/config/networks';
 
 /**
  * Compare two Ethereum addresses case-insensitively.
@@ -504,5 +512,65 @@ export function getChainComponentTokenList(chainId: unknown): ComponentToken[] {
       (t) => t.chainId === chainId && isComponentToken(t),
     ) as ComponentToken[];
   }
+  return [];
+}
+
+/**
+ * @param rpcConfig Record of rpc urls by chainId
+ * @param token A token object
+ * @returns A Promise of a list containing {@link ComponentToken} objects
+ * @example
+ * const components = await getComponentsOf(rpcConfig, token)
+ */
+/* istanbul ignore next */
+export async function getComponentsOf(
+  rpcConfig: typeof rpcUrls,
+  token: unknown,
+): Promise<ComponentToken[]> {
+  if (isListedToken(token)) {
+    const publicClient = createPublicClient({
+      transport: http(rpcConfig[token.chainId]),
+    });
+
+    let componentAddressList = [] as readonly `0x${string}`[];
+    let componentTokens = [] as ComponentToken[];
+
+    try {
+      componentAddressList = await publicClient.readContract({
+        address: token.address,
+        abi: setTokenABI,
+        functionName: 'getComponents',
+      });
+      componentTokens = componentAddressList.map((address) =>
+        getTokenByChainAndAddress(token.chainId, address),
+      ) as ComponentToken[];
+    } catch {}
+
+    if (componentTokens.length === 0) {
+      const mainnetToken =
+        token.chainId === 1 ? token : getTokenByChainAndSymbol(1, token.symbol);
+
+      if (!mainnetToken) return [];
+
+      const publicClient = createPublicClient({
+        transport: http(rpcConfig[mainnetToken.chainId]),
+      });
+
+      componentAddressList = await publicClient.readContract({
+        address: mainnetToken?.address ?? zeroAddress,
+        abi: setTokenABI,
+        functionName: 'getComponents',
+      });
+
+      const componentTokensBridged = componentAddressList.map((address) =>
+        getTokenByChainAndAddress(1, address),
+      ) as ComponentToken[];
+
+      return componentTokensBridged;
+    }
+
+    return componentTokens;
+  }
+
   return [];
 }

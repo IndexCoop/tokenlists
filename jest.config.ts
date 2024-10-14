@@ -44,8 +44,10 @@ export default {
     '/dist/',
     '/types/',
     '/tests/utils.ts',
+    '/config/',
   ],
   moduleNameMapper: convertTsConfigPathsToModuleNameMapper(
     tsConfig.compilerOptions.paths,
   ),
+  setupFiles: ['./jest.setup.ts'],
 } as Config.InitialOptions;

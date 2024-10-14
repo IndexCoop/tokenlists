@@ -2,7 +2,10 @@ import type { ChainId } from '@/src/types';
 import { createClient, http, type Client } from 'viem';
 import { mainnet, arbitrum, base } from 'viem/chains';
 
-const alchemyId = Bun.env.ALCHEMY_ID;
+const alchemyId =
+  typeof Bun !== 'undefined' && Bun.env
+    ? Bun.env.ALCHEMY_ID
+    : process.env.ALCHEMY_ID;
 
 if (!alchemyId) {
   throw new Error('ALCHEMY_ID is not set');
