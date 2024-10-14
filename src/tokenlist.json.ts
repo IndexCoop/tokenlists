@@ -1,4 +1,3 @@
-import { add, chain } from 'lodash';
 import tokenlist from '../indexcoop.tokenlist.json';
 
 export default {

@@ -21,7 +21,7 @@ import type {
   ProductRevenueToken,
 } from './types';
 import tokenlist from './tokenlist.json';
-import { Chain, isAddress, checksumAddress } from 'viem';
+import { isAddress, checksumAddress } from 'viem';
 
 /**
  * Compare two Ethereum addresses case-insensitively.
