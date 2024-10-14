@@ -1,11 +1,11 @@
 {
   "name": "IndexCoop Token List",
   "version": {
-    "major": 2,
-    "minor": 8,
+    "major": 3,
+    "minor": 0,
     "patch": 0
   },
-  "timestamp": "2024-10-14T13:38:01.704Z",
+  "timestamp": "2024-10-14T18:47:25.943Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -845,16 +845,16 @@
       ]
     },
     {
-      "address": "0xC11b1268C1A384e55C48c2391d8d480264A3A7F4",
       "chainId": 1,
-      "name": "CompoundWrappedBTC",
+      "address": "0xccF4429DB6322D5C611ee964527D42E5d685DD6a",
+      "name": "Compound Wrapped BTC",
       "symbol": "cWBTC",
       "decimals": 8,
-      "logoURI": "https://tokens.1inch.io/0xc11b1268c1a384e55c48c2391d8d480264a3a7f4.png",
       "extensions": {
-        "status": "Active",
+        "status": null,
         "coingeckoId": "compound-wrapped-btc"
       },
+      "logoURI": "https://tokens.1inch.io/0xccf4429db6322d5c611ee964527d42e5d685dd6a.png",
       "tags": [
         "component"
       ]
@@ -1070,6 +1070,21 @@
       ]
     },
     {
+      "chainId": 1,
+      "address": "0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8",
+      "name": "Aave Ethereum WBTC",
+      "symbol": "aEthWBTC",
+      "decimals": 8,
+      "extensions": {
+        "status": null,
+        "coingeckoId": "aave-v3-wbtc"
+      },
+      "logoURI": "https://assets.coingecko.com/coins/images/32883/large/wbtc.png",
+      "tags": [
+        "component"
+      ]
+    },
+    {
       "address": "0x078f358208685046a11C85e8ad32895DED33A249",
       "chainId": 42161,
       "name": "Aave Arbitrum WBTC",
@@ -1085,6 +1100,21 @@
       ]
     },
     {
+      "chainId": 1,
+      "address": "0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8",
+      "name": "Aave Ethereum WETH",
+      "symbol": "aEthWETH",
+      "decimals": 18,
+      "extensions": {
+        "status": null,
+        "coingeckoId": "aave-v3-weth"
+      },
+      "logoURI": "https://assets.coingecko.com/coins/images/32882/large/WETH_(1).png",
+      "tags": [
+        "component"
+      ]
+    },
+    {
       "address": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
       "chainId": 42161,
       "name": "Aave Arbitrum WETH",
@@ -1095,6 +1125,21 @@
         "coingeckoId": "aave-weth"
       },
       "logoURI": "ipfs://QmUDc7LQN6zKHon9FChTqZc7WGFvGPZe698Bq5HbSYtfk9",
+      "tags": [
+        "component"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0xCc9EE9483f662091a1de4795249E24aC0aC2630f",
+      "name": "Aave Ethereum rETH",
+      "symbol": "aEthrETH",
+      "decimals": 18,
+      "extensions": {
+        "status": null,
+        "coingeckoId": "aave-reth"
+      },
+      "logoURI": "https://assets.coingecko.com/coins/images/32885/large/reth.png",
       "tags": [
         "component"
       ]
