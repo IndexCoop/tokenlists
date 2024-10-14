@@ -55,4 +55,4 @@ jobs:
           signoff: true
           branch: "auto-update/versions"
           title: "Auto: Update versions to latest"
-          token: ${{ secrets.GH_EXTENDED_TOKEN }}
+          token: ${{ secrets.NPM_TOKEN }}
