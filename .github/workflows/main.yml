@@ -1,0 +1,58 @@
+name: publish
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
+
+jobs:
+  build_and_publish:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' && !startsWith(github.event.head_commit.message, 'ignore(') }}
+    env:
+      ALCHEMY_ID: ${{ secrets.ALCHEMY_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+      - name: Install Dependencies
+        run: bun install --frozen-lockfile
+      - name: Test
+        run: bun coverage
+      - uses: gaelgirodon/ci-badges-action@v1.5.0
+        with:
+          gist-id: a7c9182c954b150894614d212eb54520
+          token: ${{ secrets.GIST_TOKEN }}
+      - name: Build
+        run: bun run list:build
+      - name: Bundle
+        run: bun run list:bundle
+      - name: Release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release --branches main
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: |
+            ignore(update): Auto update versions to the latest
+
+            Update indexcoop.tokenlist.json to latest
+            Update package.json to latest
+          signoff: true
+          branch: "auto-update/versions"
+          title: "Auto: Update versions to latest"
+          token: ${{ secrets.NPM_TOKEN }}
