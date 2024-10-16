@@ -1,35 +1,35 @@
+import type { rpcUrls } from '@/config/networks';
 import type { TokenInfo } from '@uniswap/token-lists';
-import type {
-  ListedToken,
-  TokensByChain,
-  SectorToken,
-  LeverageToken,
-  YieldToken,
-  ChainId,
-  U2I,
-  TokenAddressMap,
-  TokenAddressMapByChain,
-  TokenSymbolMap,
-  TokenSymbolMapByChain,
-  IndexToken,
-  SymbolsByChain,
-  Tags,
-  AddressByChain,
-  ProductToken,
-  CurrencyToken,
-  ComponentToken,
-  ProductRevenueToken,
-} from './types';
-import tokenlist from './tokenlist.json';
 import {
-  isAddress,
   checksumAddress,
   createPublicClient,
   http,
+  isAddress,
   zeroAddress,
 } from 'viem';
 import setTokenABI from './SetToken.abi.json';
-import type { rpcUrls } from '@/config/networks';
+import tokenlist from './tokenlist.json';
+import type {
+  AddressByChain,
+  ChainId,
+  ComponentToken,
+  CurrencyToken,
+  IndexToken,
+  LeverageToken,
+  ListedToken,
+  ProductRevenueToken,
+  ProductToken,
+  SectorToken,
+  SymbolsByChain,
+  Tags,
+  TokenAddressMap,
+  TokenAddressMapByChain,
+  TokensByChain,
+  TokenSymbolMap,
+  TokenSymbolMapByChain,
+  U2I,
+  YieldToken,
+} from './types';
 
 /**
  * Compare two Ethereum addresses case-insensitively.
