@@ -182,7 +182,7 @@ export default {
       decimals: 18,
       chainId: 1,
       extensions: {
-        status: 'Hibernated',
+        status: 'Deprecated',
         coingeckoId: null,
         sector: {
           theme: 'LCap',
