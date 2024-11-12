@@ -578,7 +578,7 @@ export default {
       tags: ['index', 'product', 'yield'],
     },
     {
-      address: '0x098471190D131d9E6215dd195feDf4bcC0426c8a',
+      address: '0xF06A59348712a11e7823Ad8BFc45c59f7EAFCc60',
       chainId: 8453,
       name: 'The USDC Yield Index',
       symbol: 'icUSD',
