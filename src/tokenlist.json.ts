@@ -176,6 +176,38 @@ export default {
       tags: ['index', 'product', 'sector'],
     },
     {
+      address: '0x33d63Ba1E57E54779F7dDAeaA7109349344cf5F1',
+      name: 'DATA Economy Index',
+      symbol: 'DATA',
+      decimals: 18,
+      chainId: 1,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        sector: {
+          theme: 'Data',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/index.svg',
+      tags: ['index', 'product', 'sector', 'dangerous'],
+    },
+    {
+      address: '0x47110d43175f7f2C2425E7d15792acC5817EB44f',
+      name: 'Bankless DeFi Innovation Index',
+      symbol: 'GMI',
+      decimals: 18,
+      chainId: 1,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        sector: {
+          theme: 'DeFi',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/gmi.svg',
+      tags: ['index', 'product', 'sector', 'dangerous'],
+    },
+    {
       address: '0x1B5E16C5b20Fb5EE87C61fE9Afe735Cca3B21A65',
       name: 'Index Coop Large Cap Index',
       symbol: 'ic21',
