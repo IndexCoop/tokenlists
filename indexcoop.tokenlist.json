@@ -2,10 +2,10 @@
   "name": "IndexCoop Token List",
   "version": {
     "major": 4,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
-  "timestamp": "2024-11-12T08:26:01.039Z",
+  "timestamp": "2024-11-15T14:10:29.708Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -203,6 +203,48 @@
         "index",
         "product",
         "sector"
+      ]
+    },
+    {
+      "address": "0x33d63Ba1E57E54779F7dDAeaA7109349344cf5F1",
+      "name": "DATA Economy Index",
+      "symbol": "DATA",
+      "decimals": 18,
+      "chainId": 1,
+      "extensions": {
+        "status": "Deprecated",
+        "coingeckoId": null,
+        "sector": {
+          "theme": "Data"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/index.svg",
+      "tags": [
+        "index",
+        "product",
+        "sector",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0x47110d43175f7f2C2425E7d15792acC5817EB44f",
+      "name": "Bankless DeFi Innovation Index",
+      "symbol": "GMI",
+      "decimals": 18,
+      "chainId": 1,
+      "extensions": {
+        "status": "Deprecated",
+        "coingeckoId": null,
+        "sector": {
+          "theme": "DeFi"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/gmi.svg",
+      "tags": [
+        "index",
+        "product",
+        "sector",
+        "dangerous"
       ]
     },
     {
