@@ -328,12 +328,12 @@ export default {
       chainId: 42161,
       extensions: {
         status: 'Active',
-        coingeckoId: 'index-coop-bitcoin-2x-index',
+        coingeckoId: null,
         leverage: {
           type: 'Long2x',
         },
       },
-      logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
+      logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
@@ -418,18 +418,18 @@ export default {
     },
     {
       address: '0xC884646E6C88d9b172a23051b38B0732Cc3E35a6',
-      name: 'Index Coop Bitcoin 2x Index',
+      name: 'Index Coop Ethereum 2x Index',
       symbol: 'ETH2X',
       decimals: 18,
       chainId: 8453,
       extensions: {
         status: 'Active',
-        coingeckoId: 'index-coop-ethereum-2x-index',
+        coingeckoId: null,
         leverage: {
           type: 'Long2x',
         },
       },
-      logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
+      logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
       tags: ['index', 'product', 'leverage'],
     },
     {
