@@ -2,10 +2,10 @@
   "name": "IndexCoop Token List",
   "version": {
     "major": 4,
-    "minor": 1,
-    "patch": 1
+    "minor": 2,
+    "patch": 0
   },
-  "timestamp": "2024-11-25T15:37:06.948Z",
+  "timestamp": "2024-12-06T14:44:14.843Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -286,6 +286,48 @@
         "index",
         "product",
         "sector",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0x77F69104145f94a81cEC55747C7a0Fc9CB7712C3",
+      "name": "Index Coop 2x BTC Short 1x ETH Ratio",
+      "symbol": "BTC2xETH",
+      "decimals": 18,
+      "chainId": 42161,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Long2x"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/btc2xeth.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0xE7b1Ce8DfEE3D7417397cd4f56dBFc0d49E43Ed1",
+      "name": "Index Coop 2x ETH Short 1x BTC Ratio",
+      "symbol": "ETH2xBTC",
+      "decimals": 18,
+      "chainId": 42161,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Long2x"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/eth2xbtc.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
         "dangerous"
       ]
     },
