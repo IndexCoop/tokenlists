@@ -241,6 +241,38 @@ export default {
     },
     // --------------- Leverage Tokens ---------------
     {
+      address: '0x77F69104145f94a81cEC55747C7a0Fc9CB7712C3',
+      name: 'Index Coop 2x BTC Short 1x ETH Ratio',
+      symbol: 'BTC2xETH',
+      decimals: 18,
+      chainId: 42161,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/btc2xeth.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0xE7b1Ce8DfEE3D7417397cd4f56dBFc0d49E43Ed1',
+      name: 'Index Coop 2x ETH Short 1x BTC Ratio',
+      symbol: 'ETH2xBTC',
+      decimals: 18,
+      chainId: 42161,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/eth2xbtc.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
       address: '0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD',
       name: 'ETH 2x Flexible Leverage Index',
       symbol: 'ETH2x-FLI',
