@@ -694,6 +694,20 @@ export default {
     },
     // --------------- Component Tokens ---------------
     {
+      chainId: 137,
+      address: '0x1a13F4Ca1d028320A707D99520AbFefca3998b7F',
+      name: 'Aave Matic Market USDC',
+      symbol: 'amUSDC',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/17249/large/amUSDC_2x.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'aave-polygon-usdc',
+      },
+      tags: ['component'],
+    },
+    {
       chainId: 1,
       address: '0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72',
       name: 'Ethereum Name Service',
