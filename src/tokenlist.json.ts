@@ -480,6 +480,102 @@ export default {
       logoURI: 'https://cdn.indexcoop.com/eth3x.svg',
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
+    {
+      address: '0xd6cA869a4EC9eD2C7E618062Cdc45306d8dBBc14',
+      name: 'Bitcoin 2x Flexible Leverage Index',
+      symbol: 'BTC2x-FLI-P',
+      decimals: 18,
+      chainId: 137,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/btc2xflip.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x3Ad707dA309f3845cd602059901E39C4dcd66473',
+      name: 'ETH 2x Flexible Leverage Index',
+      symbol: 'ETH2x-FLI-P',
+      decimals: 18,
+      chainId: 137,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/eth2xflip.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x130cE4E4F76c2265f94a961D70618562de0bb8d2',
+      name: 'Inverse BTC Flexible Leverage Index',
+      symbol: 'iBTC-FLI-P',
+      decimals: 18,
+      chainId: 137,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        leverage: {
+          type: 'Short1x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/ibtcflip.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x4f025829C4B13dF652f38Abd2AB901185fF1e609',
+      name: 'Inverse ETH Flexible Leverage Index',
+      symbol: 'iETH-FLI-P',
+      decimals: 18,
+      chainId: 137,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        leverage: {
+          type: 'Short1x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/iethflip.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x340f412860dA7b7823df372a2b59Ff78b7ae6abc',
+      name: 'Inverse MATIC Flexible Leverage Index',
+      symbol: 'iMATIC-FLI-P',
+      decimals: 18,
+      chainId: 137,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        leverage: {
+          type: 'Short1x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/imaticflip.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0xf287D97B6345bad3D88856b26Fb7c0ab3F2C7976',
+      name: 'MATIC 2x Flexible Leverage Index',
+      symbol: 'MATIC2x-FLI-P',
+      decimals: 18,
+      chainId: 137,
+      extensions: {
+        status: 'Deprecated',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/matic2xflip.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
     // --------------- Yield Tokens ---------------
     {
       address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
