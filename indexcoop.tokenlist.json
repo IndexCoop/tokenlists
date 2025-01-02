@@ -3,9 +3,9 @@
   "version": {
     "major": 4,
     "minor": 5,
-    "patch": 1
+    "patch": 0
   },
-  "timestamp": "2025-01-02T19:56:56.336Z",
+  "timestamp": "2025-01-02T20:48:44.879Z",
   "tags": {
     "component": {
       "name": "Component Token",
