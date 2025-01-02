@@ -706,6 +706,21 @@ export default {
       tags: ['index', 'product', 'yield', 'dangerous'],
     },
     {
+      address: '0xc554929a61d862F2741077F8aafa147479c0b308',
+      name: 'Morpho IndexCoop hyETH',
+      symbol: 'mhyETH',
+      decimals: 18,
+      chainId: 1,
+      extensions: {
+        status: 'Active',
+        yield: {
+          theme: 'ETH',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/hyeth.svg',
+      tags: ['component'],
+    },
+    {
       address: '0x55b2CFcfe99110C773f00b023560DD9ef6C8A13B',
       name: 'CoinDesk ETH Trend Index',
       symbol: 'cdETI',

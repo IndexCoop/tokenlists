@@ -89,7 +89,7 @@ try yourself by visiting this [StackBlitz url](https://stackblitz.com/edit/vitej
 
 ## Build
 
-#### Running the script `(npm|pnpm|bun) run build` will do the following things:
+#### Running the script `(npm|pnpm|bun) run list:build` will do the following things:
   - Take the `tokenlist.json.ts` file's current state
   - Validate it against Uniswap's tokenlist json schema
   - Validate if the contracts for all the tokens exist
