@@ -2,10 +2,10 @@
   "name": "IndexCoop Token List",
   "version": {
     "major": 4,
-    "minor": 4,
-    "patch": 0
+    "minor": 5,
+    "patch": 1
   },
-  "timestamp": "2024-12-11T20:20:34.556Z",
+  "timestamp": "2025-01-02T19:56:56.336Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -893,6 +893,23 @@
         "product",
         "yield",
         "dangerous"
+      ]
+    },
+    {
+      "address": "0xc554929a61d862F2741077F8aafa147479c0b308",
+      "name": "Morpho IndexCoop hyETH",
+      "symbol": "mhyETH",
+      "decimals": 18,
+      "chainId": 1,
+      "extensions": {
+        "status": "Active",
+        "yield": {
+          "theme": "ETH"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/hyeth.svg",
+      "tags": [
+        "component"
       ]
     },
     {

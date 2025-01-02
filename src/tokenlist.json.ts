@@ -718,7 +718,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/hyeth.svg',
-      tags: [],
+      tags: ['component'],
     },
     {
       address: '0x55b2CFcfe99110C773f00b023560DD9ef6C8A13B',

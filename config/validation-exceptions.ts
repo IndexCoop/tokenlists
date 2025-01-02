@@ -1,1 +1,1 @@
-export default ['TOKEN_SYMBOL', 'MKR']; // This is case sensitive
+export default ['TOKEN_SYMBOL', 'MKR', 'mhyETH']; // This is case sensitive
