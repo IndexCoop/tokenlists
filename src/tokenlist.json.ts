@@ -706,7 +706,7 @@ export default {
       tags: ['index', 'product', 'yield', 'dangerous'],
     },
     {
-      address: '0xc554929a61d862F2741077F8aafa147479c0b308',
+      address: '0x701907283a57FF77E255C3f1aAD790466B8CE4ef',
       name: 'Morpho IndexCoop hyETH',
       symbol: 'mhyETH',
       decimals: 18,
