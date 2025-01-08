@@ -1,11 +1,11 @@
 {
   "name": "IndexCoop Token List",
   "version": {
-    "major": 4,
-    "minor": 5,
+    "major": 5,
+    "minor": 0,
     "patch": 0
   },
-  "timestamp": "2025-01-02T20:48:44.879Z",
+  "timestamp": "2025-01-08T20:02:30.950Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -896,7 +896,7 @@
       ]
     },
     {
-      "address": "0xc554929a61d862F2741077F8aafa147479c0b308",
+      "address": "0x701907283a57FF77E255C3f1aAD790466B8CE4ef",
       "name": "Morpho IndexCoop hyETH",
       "symbol": "mhyETH",
       "decimals": 18,
