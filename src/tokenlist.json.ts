@@ -401,6 +401,22 @@ export default {
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
+      address: '0x186F3d8BB80DFF50750bABc5A4bcC33134c39cDe',
+      name: 'Index Coop Bitcoin 2x Index',
+      symbol: 'BTC2X',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
+      tags: ['index', 'product', 'leverage'],
+    },
+    {
       address: '0xeb5bE62e6770137beaA0cC712741165C594F59D7',
       name: 'Index Coop Bitcoin 2x Index',
       symbol: 'BTC2X',
@@ -414,7 +430,23 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
-      tags: ['index', 'product', 'leverage'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x1F4609133b6dAcc88f2fa85c2d26635554685699',
+      name: 'Index Coop Bitcoin 3x Index',
+      symbol: 'BTC3X',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/btc3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0x3bDd0d5c0C795b2Bf076F5C8F177c58e42beC0E6',
