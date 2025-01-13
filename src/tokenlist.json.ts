@@ -414,7 +414,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
-      tags: ['index', 'product', 'leverage'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0xeb5bE62e6770137beaA0cC712741165C594F59D7',
@@ -494,7 +494,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
-      tags: ['index', 'product', 'leverage'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0x329f6656792c7d34D0fBB9762FA9A8F852272acb',
@@ -623,7 +623,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/iceth.svg',
-      tags: ['index', 'product', 'yield'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     {
       address: '0x341c05c0E9b33C0E38d64de76516b2Ce970bB3BE',
@@ -798,7 +798,7 @@ export default {
           theme: 'USDC',
         },
       },
-      tags: ['index', 'product', 'yield'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     // --------------- Product Revenue Tokens ---------------
     {
