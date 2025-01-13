@@ -837,6 +837,19 @@ export default {
     },
     // --------------- Component Tokens ---------------
     {
+      chainId: 8453,
+      address: '0xBdb9300b7CDE636d9cD4AFF00f6F009fFBBc8EE6',
+      name: 'Aave Base cbBTC',
+      symbol: 'aBascbBTC',
+      decimals: 8,
+      logoURI: 'https://basescan.org/token/images/aavecbbtc_32.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+      },
+      tags: ['component'],
+    },
+    {
       chainId: 137,
       address: '0x1a13F4Ca1d028320A707D99520AbFefca3998b7F',
       name: 'Aave Matic Market USDC',
