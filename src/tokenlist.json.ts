@@ -401,6 +401,22 @@ export default {
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
+      address: '0x186F3d8BB80DFF50750bABc5A4bcC33134c39cDe',
+      name: 'Index Coop Bitcoin 2x Index',
+      symbol: 'BTC2X',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
       address: '0xeb5bE62e6770137beaA0cC712741165C594F59D7',
       name: 'Index Coop Bitcoin 2x Index',
       symbol: 'BTC2X',
@@ -414,7 +430,23 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
-      tags: ['index', 'product', 'leverage'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x1F4609133b6dAcc88f2fa85c2d26635554685699',
+      name: 'Index Coop Bitcoin 3x Index',
+      symbol: 'BTC3X',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/btc3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0x3bDd0d5c0C795b2Bf076F5C8F177c58e42beC0E6',
@@ -462,7 +494,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
-      tags: ['index', 'product', 'leverage'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0x329f6656792c7d34D0fBB9762FA9A8F852272acb',
@@ -591,7 +623,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/iceth.svg',
-      tags: ['index', 'product', 'yield'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     {
       address: '0x341c05c0E9b33C0E38d64de76516b2Ce970bB3BE',
@@ -766,7 +798,7 @@ export default {
           theme: 'USDC',
         },
       },
-      tags: ['index', 'product', 'yield'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     // --------------- Product Revenue Tokens ---------------
     {
@@ -804,6 +836,19 @@ export default {
       tags: ['index', 'prt'],
     },
     // --------------- Component Tokens ---------------
+    {
+      chainId: 8453,
+      address: '0xBdb9300b7CDE636d9cD4AFF00f6F009fFBBc8EE6',
+      name: 'Aave Base cbBTC',
+      symbol: 'aBascbBTC',
+      decimals: 8,
+      logoURI: 'https://basescan.org/token/images/aavecbbtc_32.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+      },
+      tags: ['component'],
+    },
     {
       chainId: 137,
       address: '0x1a13F4Ca1d028320A707D99520AbFefca3998b7F',
