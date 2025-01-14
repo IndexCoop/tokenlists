@@ -2,10 +2,10 @@
   "name": "IndexCoop Token List",
   "version": {
     "major": 5,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
-  "timestamp": "2025-01-08T20:02:30.950Z",
+  "timestamp": "2025-01-14T13:28:25.464Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -502,6 +502,27 @@
       ]
     },
     {
+      "address": "0x186F3d8BB80DFF50750bABc5A4bcC33134c39cDe",
+      "name": "Index Coop Bitcoin 2x Index",
+      "symbol": "BTC2X",
+      "decimals": 18,
+      "chainId": 8453,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Long2x"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/btc2x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
       "address": "0xeb5bE62e6770137beaA0cC712741165C594F59D7",
       "name": "Index Coop Bitcoin 2x Index",
       "symbol": "BTC2X",
@@ -518,7 +539,29 @@
       "tags": [
         "index",
         "product",
-        "leverage"
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0x1F4609133b6dAcc88f2fa85c2d26635554685699",
+      "name": "Index Coop Bitcoin 3x Index",
+      "symbol": "BTC3X",
+      "decimals": 18,
+      "chainId": 8453,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Long3x"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/btc3x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
       ]
     },
     {
@@ -580,7 +623,8 @@
       "tags": [
         "index",
         "product",
-        "leverage"
+        "leverage",
+        "dangerous"
       ]
     },
     {
@@ -747,7 +791,8 @@
       "tags": [
         "index",
         "product",
-        "yield"
+        "yield",
+        "dangerous"
       ]
     },
     {
@@ -970,7 +1015,8 @@
       "tags": [
         "index",
         "product",
-        "yield"
+        "yield",
+        "dangerous"
       ]
     },
     {
@@ -1011,6 +1057,21 @@
       "tags": [
         "index",
         "prt"
+      ]
+    },
+    {
+      "chainId": 8453,
+      "address": "0xBdb9300b7CDE636d9cD4AFF00f6F009fFBBc8EE6",
+      "name": "Aave Base cbBTC",
+      "symbol": "aBascbBTC",
+      "decimals": 8,
+      "logoURI": "https://basescan.org/token/images/aavecbbtc_32.png",
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null
+      },
+      "tags": [
+        "component"
       ]
     },
     {
