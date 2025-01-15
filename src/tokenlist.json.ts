@@ -1148,6 +1148,20 @@ export default {
       tags: ['component'],
     },
     {
+      address: '0x12AFDeFb2237a5963e7BAb3e2D46ad0eee70406e',
+      chainId: 8453,
+      name: 'Re7 USDC',
+      symbol: 'Re7USDC',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/29837/large/2022-official-morpho-token.png',
+      extensions: {
+        status: null,
+        coingeckoId: null,
+      },
+      tags: ['component'],
+    },
+    {
       address: '0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0',
       chainId: 1,
       name: 'Re7 WETH',
