@@ -906,6 +906,20 @@ export default {
       tags: ['component'],
     },
     {
+      address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
+      chainId: 8453,
+      name: 'Coinbase Wrapped BTC',
+      symbol: 'cbBTC',
+      decimals: 8,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/40143/large/cbbtc.webp',
+      extensions: {
+        status: null,
+        coingeckoId: null,
+      },
+      tags: ['component'],
+    },
+    {
       chainId: 1,
       address: '0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72',
       name: 'Ethereum Name Service',
