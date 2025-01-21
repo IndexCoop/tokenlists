@@ -3,9 +3,9 @@
   "version": {
     "major": 5,
     "minor": 2,
-    "patch": 0
+    "patch": 1
   },
-  "timestamp": "2025-01-15T20:21:18.657Z",
+  "timestamp": "2025-01-21T17:11:58.023Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -813,7 +813,8 @@
         "index",
         "product",
         "yield",
-        "component"
+        "component",
+        "dangerous"
       ]
     },
     {
@@ -833,7 +834,8 @@
       "tags": [
         "index",
         "product",
-        "yield"
+        "yield",
+        "dangerous"
       ]
     },
     {
@@ -853,7 +855,8 @@
       "tags": [
         "index",
         "product",
-        "yield"
+        "yield",
+        "dangerous"
       ]
     },
     {
@@ -995,7 +998,8 @@
       "tags": [
         "index",
         "product",
-        "yield"
+        "yield",
+        "dangerous"
       ]
     },
     {
