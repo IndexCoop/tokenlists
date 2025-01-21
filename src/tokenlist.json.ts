@@ -639,7 +639,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/dseth.svg',
-      tags: ['index', 'product', 'yield', 'component'],
+      tags: ['index', 'product', 'yield', 'component', 'dangerous'],
     },
     {
       address: '0x95b11aca35D35Ac8B8A88E1F7792873BBea7CeBb',
@@ -655,7 +655,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/dseth.svg',
-      tags: ['index', 'product', 'yield'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     {
       address: '0x37E7C051Dc5A24313cEEC581222882648ba537aa',
@@ -671,7 +671,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/dseth.svg',
-      tags: ['index', 'product', 'yield'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     {
       address: '0x36c833Eed0D376f75D1ff9dFDeE260191336065e',
@@ -782,7 +782,7 @@ export default {
           theme: 'USDC',
         },
       },
-      tags: ['index', 'product', 'yield'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     {
       address: '0xF06A59348712a11e7823Ad8BFc45c59f7EAFCc60',
