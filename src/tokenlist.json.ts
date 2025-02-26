@@ -2000,6 +2000,20 @@ export default {
       tags: ['currency', 'component'],
     },
     {
+      address: '0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4',
+      chainId: 8453,
+      name: 'Sui (Universal)',
+      symbol: 'uSUI',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/50482/large/UA-SUI-PAD.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'wrapped-sui-universal',
+      },
+      tags: ['currency', 'component'],
+    },
+    {
       address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
       chainId: 1,
       name: 'Wrapped liquid staked Ether 2.0',
