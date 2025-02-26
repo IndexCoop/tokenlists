@@ -608,6 +608,22 @@ export default {
       logoURI: 'https://cdn.indexcoop.com/matic2xflip.svg',
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
+    {
+      address: '0xc8DF827157AdAf693FCb0c6f305610C28De739FD',
+      name: 'wstETH Morpho Looped 15x',
+      symbol: 'wstETH15x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long15x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/wsteth15x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
     // --------------- Yield Tokens ---------------
     {
       address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
