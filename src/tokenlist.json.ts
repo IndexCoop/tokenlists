@@ -658,7 +658,7 @@ export default {
     },
     {
       address: '0x8D08CE52e217aD61deb96dFDcf416B901cA2dC22',
-      name: 'uSOL/USDC 3x Leverage Morpho',
+      name: 'uSUI/USDC 3x Leverage Morpho',
       symbol: 'uSUI3x',
       decimals: 18,
       chainId: 8453,
