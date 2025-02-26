@@ -1919,5 +1919,19 @@ export default {
       },
       tags: ['currency', 'component'],
     },
+    {
+      address: '0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452',
+      chainId: 8453,
+      name: 'Wrapped liquid staked Ether 2.0',
+      symbol: 'wstETH',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/18834/large/wstETH.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'superbridge-bridged-wsteth-base',
+      },
+      tags: ['currency', 'component'],
+    },
   ],
 } as const;
