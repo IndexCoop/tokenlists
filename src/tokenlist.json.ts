@@ -641,6 +641,38 @@ export default {
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
+      address: '0x2F67e4bE7fBF53dB88881324AAc99e9D85208d40',
+      name: 'uSUI/USDC 2x Leverage Morpho',
+      symbol: 'uSUI2x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/usui2x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x8D08CE52e217aD61deb96dFDcf416B901cA2dC22',
+      name: 'uSOL/USDC 3x Leverage Morpho',
+      symbol: 'uSUI3x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/usui3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
       address: '0xc8DF827157AdAf693FCb0c6f305610C28De739FD',
       name: 'wstETH Morpho Looped 15x',
       symbol: 'wstETH15x',
