@@ -608,6 +608,86 @@ export default {
       logoURI: 'https://cdn.indexcoop.com/matic2xflip.svg',
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
+    {
+      address: '0x0A0Fbd86d2dEB53D7C65fecF8622c2Fa0DCdc9c6',
+      name: 'uSOL/USDC 2x  Leverage Morpho',
+      symbol: 'uSOL2x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/usol2x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x16c469F88979e19A53ea522f0c77aFAD9A043571',
+      name: 'uSOL/USDC 3x Leverage Morpho',
+      symbol: 'uSOL3x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/usol3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x2F67e4bE7fBF53dB88881324AAc99e9D85208d40',
+      name: 'uSUI/USDC 2x Leverage Morpho',
+      symbol: 'uSUI2x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/usui2x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x8D08CE52e217aD61deb96dFDcf416B901cA2dC22',
+      name: 'uSUI/USDC 3x Leverage Morpho',
+      symbol: 'uSUI3x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/usui3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0xc8DF827157AdAf693FCb0c6f305610C28De739FD',
+      name: 'wstETH Morpho Looped 15x',
+      symbol: 'wstETH15x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long15x',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/wsteth15x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
     // --------------- Yield Tokens ---------------
     {
       address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
@@ -1906,6 +1986,34 @@ export default {
       tags: ['currency'],
     },
     {
+      address: '0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55',
+      chainId: 8453,
+      name: 'Solana (Universal)',
+      symbol: 'uSOL',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/39987/large/UA-SOL_1.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'wrapped-solana-universal',
+      },
+      tags: ['currency', 'component'],
+    },
+    {
+      address: '0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4',
+      chainId: 8453,
+      name: 'Sui (Universal)',
+      symbol: 'uSUI',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/50482/large/UA-SUI-PAD.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'wrapped-sui-universal',
+      },
+      tags: ['currency', 'component'],
+    },
+    {
       address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
       chainId: 1,
       name: 'Wrapped liquid staked Ether 2.0',
@@ -1916,6 +2024,20 @@ export default {
       extensions: {
         status: 'Active',
         coingeckoId: 'wrapped-steth',
+      },
+      tags: ['currency', 'component'],
+    },
+    {
+      address: '0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452',
+      chainId: 8453,
+      name: 'Wrapped liquid staked Ether 2.0',
+      symbol: 'wstETH',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/18834/large/wstETH.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'superbridge-bridged-wsteth-base',
       },
       tags: ['currency', 'component'],
     },
