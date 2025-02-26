@@ -1922,6 +1922,20 @@ export default {
       tags: ['currency'],
     },
     {
+      address: '0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55',
+      chainId: 8453,
+      name: 'Solana (Universal)',
+      symbol: 'uSOL',
+      decimals: 18,
+      logoURI:
+        'https://assets.coingecko.com/coins/images/39987/large/UA-SOL_1.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'wrapped-solana-universal',
+      },
+      tags: ['currency', 'component'],
+    },
+    {
       address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
       chainId: 1,
       name: 'Wrapped liquid staked Ether 2.0',
