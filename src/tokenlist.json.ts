@@ -674,7 +674,7 @@ export default {
     },
     {
       address: '0xc8DF827157AdAf693FCb0c6f305610C28De739FD',
-      name: 'wstETH Morpho Looped 15x',
+      name: 'Staked ETH 15x',
       symbol: 'wstETH15x',
       decimals: 18,
       chainId: 8453,
