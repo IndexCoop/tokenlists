@@ -681,12 +681,12 @@ export default {
       extensions: {
         status: 'Active',
         coingeckoId: null,
-        leverage: {
-          type: 'Long15x',
+        yield: {
+          theme: 'ETH',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/wsteth15x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     // --------------- Yield Tokens ---------------
     {
