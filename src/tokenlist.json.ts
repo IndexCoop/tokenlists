@@ -674,19 +674,19 @@ export default {
     },
     {
       address: '0xc8DF827157AdAf693FCb0c6f305610C28De739FD',
-      name: 'wstETH Morpho Looped 15x',
+      name: 'Staked ETH 15x',
       symbol: 'wstETH15x',
       decimals: 18,
       chainId: 8453,
       extensions: {
         status: 'Active',
         coingeckoId: null,
-        leverage: {
-          type: 'Long15x',
+        yield: {
+          theme: 'ETH',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/wsteth15x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous'],
+      tags: ['index', 'product', 'yield', 'dangerous'],
     },
     // --------------- Yield Tokens ---------------
     {
