@@ -2328,9 +2328,6 @@
         "bridgeInfo": {
           "1": {
             "tokenAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
-          },
-          "42161": {
-            "tokenAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
           }
         }
       },
@@ -2352,9 +2349,6 @@
         "bridgeInfo": {
           "1": {
             "tokenAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
-          },
-          "8453": {
-            "tokenAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c"
           }
         }
       },
