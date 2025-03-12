@@ -574,3 +574,71 @@ export async function getComponentsOf(
 
   return [];
 }
+
+/**
+ * Retrieves the underlying token for a leverage token.
+ * @param token - A leverage token
+ * @returns The underlying token, or null if not found or if the input is not a leverage token
+ * @example
+ * getUnderlyingToken(eth2xToken); // Returns WETH token
+ */
+export function getUnderlyingToken<T extends LeverageToken>(
+  token: T,
+): Extract<
+  ListedToken,
+  {
+    chainId: T['chainId'];
+    address: T['extensions']['leverage']['underlyingAddress'];
+  }
+>;
+
+export function getUnderlyingToken(token: LeverageToken): ListedToken | null;
+export function getUnderlyingToken(token: unknown): ListedToken | null;
+export function getUnderlyingToken(token: unknown): ListedToken | null {
+  if (isLeverageToken(token)) {
+    const { underlyingAddress } = token.extensions.leverage;
+
+    const underlyingToken = getTokenByChainAndAddress(
+      token.chainId,
+      underlyingAddress,
+    );
+
+    return underlyingToken ?? getTokenByChainAndAddress(1, underlyingAddress);
+  }
+
+  return null;
+}
+
+/**
+ * Retrieves the collateral token for a leverage token.
+ * @param token - A leverage token
+ * @returns The collateral token, or null if not found or if the input is not a leverage token
+ * @example
+ * getCollateralToken(eth2xToken); // Returns USDC token
+ */
+export function getCollateralToken<T extends LeverageToken>(
+  token: T,
+): Extract<
+  ListedToken,
+  {
+    chainId: T['chainId'];
+    address: T['extensions']['leverage']['collateralAddress'];
+  }
+>;
+
+export function getCollateralToken(token: LeverageToken): ListedToken | null;
+export function getCollateralToken(token: unknown): ListedToken | null;
+export function getCollateralToken(token: unknown): ListedToken | null {
+  if (isLeverageToken(token)) {
+    const { collateralAddress } = token.extensions.leverage;
+
+    const collateralToken = getTokenByChainAndAddress(
+      token.chainId,
+      collateralAddress,
+    );
+
+    return collateralToken ?? getTokenByChainAndAddress(1, collateralAddress);
+  }
+
+  return null;
+}
