@@ -1,1 +1,3 @@
-export default ['TOKEN_SYMBOL', 'MKR', 'mhyETH']; // This is case sensitive
+import type { Symbol_ } from '@/src';
+
+export default ['TOKEN_SYMBOL', 'MKR', 'mhyETH'] as Symbol_[];
