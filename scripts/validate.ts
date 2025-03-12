@@ -3,8 +3,9 @@ import addFormats from 'ajv-formats';
 import { schema } from '@uniswap/token-lists';
 import { erc20Abi, getContract } from 'viem';
 import { staticClients } from '@/config/networks';
-import type { IndexTokenList } from '@/src/types';
+import type { IndexTokenList, LeverageToken } from '@/src/types';
 import validationExceptions from '@/config/validation-exceptions';
+import { getTokenByChainAndAddress, isLeverageToken } from '@/src';
 
 export const matchTokens = async (tokenlist: IndexTokenList) => {
   const result = await Promise.all(
@@ -99,6 +100,61 @@ export const validateSchema = (tokenlist: IndexTokenList) => {
   }
 };
 
+const validateLeverageParentTokens = (
+  tokenlist: IndexTokenList,
+  type: 'underlying' | 'collateral',
+) => {
+  const leverageTokens = tokenlist.tokens.filter(isLeverageToken);
+
+  const prop =
+    type === 'underlying' ? 'underlyingAddress' : 'collateralAddress';
+
+  const result = leverageTokens.reduce(
+    (acc, token) => {
+      const parentToken = getTokenByChainAndAddress(
+        token.chainId,
+        token.extensions.leverage[prop],
+      );
+
+      const mainnetToken = getTokenByChainAndAddress(
+        1,
+        token.extensions.leverage[prop],
+      );
+
+      if (!parentToken && !mainnetToken) {
+        acc.tokenNotFound.push({
+          symbol: token.symbol,
+          chainId: token.chainId,
+        });
+      } else if (parentToken?.chainId !== token.chainId && !mainnetToken) {
+        acc.chainId.push({
+          symbol: token.symbol,
+          chainId: token.chainId,
+        });
+      }
+
+      if (
+        !parentToken?.extensions.coingeckoId &&
+        !mainnetToken?.extensions.coingeckoId
+      ) {
+        acc.coingeckoId.push({
+          symbol: token.symbol,
+          chainId: token.chainId,
+        });
+      }
+
+      return acc;
+    },
+    {
+      tokenNotFound: [] as { symbol: string; chainId: number }[],
+      chainId: [] as { symbol: string; chainId: number }[],
+      coingeckoId: [] as { symbol: string; chainId: number }[],
+    },
+  );
+
+  return result;
+};
+
 export const validate = async (tokenlist: IndexTokenList) => {
   try {
     validateSchema(tokenlist);
@@ -139,6 +195,7 @@ export const validate = async (tokenlist: IndexTokenList) => {
         `${tokenContractsMissingMsg}\n${invalidSymbolsMsg}\n${invalidDecimalsMsg}`,
       );
     }
+
     console.log('✅ All token contracts found, symbols, and decimals match.');
 
     const invalidLogoURIs = await matchLogoUris(tokenlist);
@@ -153,6 +210,59 @@ export const validate = async (tokenlist: IndexTokenList) => {
     }
 
     console.log("✅ All token logoURI's fetched, and available.");
+
+    const {
+      tokenNotFound: leverageUnderlyingMissing,
+      chainId: leverageUnderlyingChainIdMismatch,
+      coingeckoId: leverageUnderlyingCoingeckoIdMissing,
+    } = validateLeverageParentTokens(tokenlist, 'underlying');
+    const {
+      tokenNotFound: leverageCollateralMissing,
+      chainId: leverageCollateralChainIdMismatch,
+      coingeckoId: leverageCollateralCoingeckoIdMissing,
+    } = validateLeverageParentTokens(tokenlist, 'collateral');
+
+    if (
+      leverageUnderlyingMissing.concat(
+        leverageCollateralMissing,
+        leverageUnderlyingChainIdMismatch,
+        leverageCollateralChainIdMismatch,
+        leverageUnderlyingCoingeckoIdMissing,
+        leverageCollateralCoingeckoIdMissing,
+      ).length > 0
+    ) {
+      const leverageUnderlyingMissingMsg =
+        leverageUnderlyingMissing.length > 0
+          ? `\nMissing Underlying for: ${leverageUnderlyingMissing.map(({ symbol, chainId }) => `\n-\t${chainId}:${symbol}`).join('')}`
+          : '';
+      const leverageCollateralMissingMsg =
+        leverageCollateralMissing.length > 0
+          ? `\nMissing Collateral for: ${leverageCollateralMissing.map(({ symbol, chainId }) => `\n-\t${chainId}:${symbol}`).join('')}`
+          : '';
+      const leverageUnderlyingChainIdMismatchMsg =
+        leverageUnderlyingChainIdMismatch.length > 0
+          ? `\nUnderlying Chain ID mismatch for: ${leverageUnderlyingChainIdMismatch.map(({ symbol, chainId }) => `\n-\t${chainId}:${symbol}`).join('')}`
+          : '';
+      const leverageCollateralChainIdMismatchMsg =
+        leverageCollateralChainIdMismatch.length > 0
+          ? `\nCollateral Chain ID mismatch for: ${leverageCollateralChainIdMismatch.map(({ symbol, chainId }) => `\n-\t${chainId}:${symbol}`).join('')}`
+          : '';
+
+      const leverageUnderlyingCoingeckoIdMissingMsg =
+        leverageUnderlyingCoingeckoIdMissing.length > 0
+          ? `\nMissing Coingecko ID for: ${leverageUnderlyingCoingeckoIdMissing.map(({ symbol, chainId }) => `\n-\t${chainId}:${symbol}`).join('')}`
+          : '';
+      const leverageCollateralCoingeckoIdMissingMsg =
+        leverageCollateralCoingeckoIdMissing.length > 0
+          ? `\nMissing Coingecko ID for: ${leverageCollateralCoingeckoIdMissing.map(({ symbol, chainId }) => `\n-\t${chainId}:${symbol}`).join('')}`
+          : '';
+
+      throw new Error(
+        `${leverageUnderlyingMissingMsg}\n${leverageCollateralMissingMsg}\n${leverageUnderlyingChainIdMismatchMsg}\n${leverageCollateralChainIdMismatchMsg}\n${leverageUnderlyingCoingeckoIdMissingMsg}\n${leverageCollateralCoingeckoIdMissingMsg}`,
+      );
+    }
+
+    console.log('✅ All leverage tokens have valid parent tokens.');
 
     console.log('✅ Tokenlist is valid.');
   } catch (error) {

@@ -42,7 +42,6 @@ export default {
       name: 'Stablecoin',
       description: 'This is a stablecoin.',
     },
-
     yield: {
       name: 'Yield Token',
       description: 'This is a token that accrues yield.',
@@ -251,6 +250,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
+          collateralAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2xeth.svg',
@@ -267,6 +268,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+          collateralAddress: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2xbtc.svg',
@@ -283,6 +286,8 @@ export default {
         coingeckoId: 'eth-2x-flexible-leverage-index',
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
@@ -299,6 +304,8 @@ export default {
         coingeckoId: 'eleveraged-reth-staking-yield',
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0xae78736Cd615f374D3085123A210448E74Fc6393',
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/icreth.svg',
@@ -315,6 +322,8 @@ export default {
         coingeckoId: 'btc-2x-flexible-leverage-index',
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
@@ -331,6 +340,8 @@ export default {
         coingeckoId: 'index-coop-ethereum-2x-index',
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
@@ -347,6 +358,8 @@ export default {
         coingeckoId: 'index-coop-bitcoin-2x-index',
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
@@ -363,6 +376,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
@@ -379,6 +394,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long3x',
+          underlyingAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth3x.svg',
@@ -395,6 +412,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Short1x',
+          underlyingAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/ieth1x.svg',
@@ -411,6 +430,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
@@ -427,6 +448,8 @@ export default {
         coingeckoId: 'index-coop-bitcoin-2x-index',
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
@@ -443,6 +466,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long3x',
+          underlyingAddress: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc3x.svg',
@@ -459,6 +484,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long3x',
+          underlyingAddress: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc3x.svg',
@@ -475,6 +502,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Short1x',
+          underlyingAddress: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/ibtc1x.svg',
@@ -491,6 +520,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x4200000000000000000000000000000000000006',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
@@ -507,6 +538,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long3x',
+          underlyingAddress: '0x4200000000000000000000000000000000000006',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth3x.svg',
@@ -523,6 +556,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599', // mainnet
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', // mainnet
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2xflip.svg',
@@ -539,6 +574,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', // mainnet
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', // mainnet
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2xflip.svg',
@@ -555,6 +592,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Short1x',
+          underlyingAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599', // mainnet
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', // mainnet
         },
       },
       logoURI: 'https://cdn.indexcoop.com/ibtcflip.svg',
@@ -571,6 +610,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Short1x',
+          underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2', // mainnet
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', // mainnet
         },
       },
       logoURI: 'https://cdn.indexcoop.com/iethflip.svg',
@@ -587,6 +628,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Short1x',
+          underlyingAddress: '0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4',
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/imaticflip.svg',
@@ -603,6 +646,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4',
+          collateralAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/matic2xflip.svg',
@@ -619,6 +664,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/usol2x.svg',
@@ -635,6 +682,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long3x',
+          underlyingAddress: '0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/usol3x.svg',
@@ -651,6 +700,8 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
+          underlyingAddress: '0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/usui2x.svg',
@@ -667,11 +718,14 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long3x',
+          underlyingAddress: '0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
         },
       },
       logoURI: 'https://cdn.indexcoop.com/usui3x.svg',
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
+    // --------------- Yield Tokens ---------------
     {
       address: '0xc8DF827157AdAf693FCb0c6f305610C28De739FD',
       name: 'Staked ETH 15x',
@@ -685,10 +739,10 @@ export default {
           theme: 'ETH',
         },
       },
+
       logoURI: 'https://cdn.indexcoop.com/wsteth15x.svg',
       tags: ['index', 'product', 'yield', 'dangerous'],
     },
-    // --------------- Yield Tokens ---------------
     {
       address: '0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84',
       name: 'Interest Compounding ETH Index',
@@ -825,6 +879,7 @@ export default {
       chainId: 1,
       extensions: {
         status: 'Active',
+        coingeckoId: null,
         yield: {
           theme: 'ETH',
         },
@@ -1816,7 +1871,7 @@ export default {
     {
       name: 'Tether USD',
       address: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
-      symbol: 'USDT',
+      symbol: 'USD₮0',
       decimals: 6,
       chainId: 42161,
       logoURI:
@@ -1903,8 +1958,30 @@ export default {
         status: 'Active',
         coingeckoId: 'wrapped-bitcoin',
         bridgeInfo: {
+          '8453': {
+            tokenAddress: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+          },
           '42161': {
             tokenAddress: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
+          },
+        },
+      },
+      tags: ['currency', 'component'],
+    },
+    {
+      name: 'Wrapped BTC',
+      address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+      symbol: 'WBTC',
+      decimals: 8,
+      chainId: 8453,
+      logoURI:
+        'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'wrapped-bitcoin',
+        bridgeInfo: {
+          '1': {
+            tokenAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
           },
         },
       },
