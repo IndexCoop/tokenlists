@@ -49,4 +49,6 @@ export {
   getChainCurrencyTokenList,
   getChainComponentTokenList,
   getComponentsOf,
+  getCollateralToken,
+  getUnderlyingToken,
 } from './utils';

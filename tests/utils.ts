@@ -1,4 +1,4 @@
-import { isAddressEqual } from '../src';
+import { isAddressEqual, type LeverageToken } from '../src';
 import fc from 'fast-check';
 import { checksumAddress, type Address } from 'viem';
 import tokenlist from '../src/tokenlist.json';
@@ -212,4 +212,24 @@ export const invalidChainIdArbitrary = fc.integer({ min: 1000000 });
 
 export const tagArbitrary = fc.array(
   fc.constantFrom(...tokenlist.tokens.flatMap((token) => token.tags || [])),
+);
+
+export const underlyingTokenArbitrary = fc.constantFrom(
+  leverageTokenArbitrary.map((token) =>
+    tokenlist.tokens.find(
+      (t) =>
+        t.address ===
+        (token as LeverageToken).extensions.leverage.underlyingAddress,
+    ),
+  ),
+);
+
+export const collateralTokenArbitrary = fc.constantFrom(
+  leverageTokenArbitrary.map((token) =>
+    tokenlist.tokens.find(
+      (t) =>
+        t.address ===
+        (token as LeverageToken).extensions.leverage.collateralAddress,
+    ),
+  ),
 );

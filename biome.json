@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["dist/**/*", "./indexcoop.tokenlist.json"]
+    "ignore": ["dist/**/*", "coverage/**/*", "./indexcoop.tokenlist.json"]
   },
   "formatter": {
     "enabled": true,
