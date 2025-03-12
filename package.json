@@ -1,6 +1,6 @@
 {
   "name": "@indexcoop/tokenlists",
-  "version": "3.11.1",
+  "version": "4.0.0",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +10,10 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "type": "module",
   "scripts": {
     "lint": "bunx @biomejs/biome lint",
@@ -23,7 +26,9 @@
     "coverage": "jest --coverage"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
