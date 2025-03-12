@@ -268,5 +268,7 @@ export const validate = async (tokenlist: IndexTokenList) => {
   } catch (error) {
     console.log('❌ Tokenlist is invalid.');
     console.error(error);
+
+    process.exit(1);
   }
 };

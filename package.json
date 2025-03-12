@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "bunx @biomejs/biome lint",
     "format": "bunx @biomejs/biome format . --write",
-    "list:validate": "bun ./scripts/validate.ts",
+    "list:validate": "bun ./scripts/run-validate-only.ts",
     "list:build": "bun ./scripts/index.ts",
     "list:bundle": "bun tsup && bun copy-tokenlist",
     "copy-tokenlist": "shx cp ./*.tokenlist.json ./dist",
