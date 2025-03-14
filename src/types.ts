@@ -103,11 +103,28 @@ export type LeverageToken = TokenCat<ListedToken, 'leverage'>;
 /**
  * {@link SectorToken} - All tokens have this type, if their extensions contain the key 'sector'
  */
+
 export type SectorToken = TokenCat<ListedToken, 'sector'>;
 /**
  * {@link YieldToken} - All tokens have this type, if their extensions contain the key 'yield'
  */
 export type YieldToken = TokenCat<ListedToken, 'yield'>;
+
+/**
+ * {@link UnderlyingToken} - A union of all tokens that are underlying tokens for a leverage token
+ */
+export type UnderlyingToken = Extract<
+  ListedToken,
+  { address: LeverageToken['extensions']['leverage']['underlyingAddress'] }
+>;
+
+/**
+ * {@link CollateralToken} - A union of all tokens that are collateral tokens for a leverage token
+ */
+export type CollateralToken = Extract<
+  ListedToken,
+  { address: LeverageToken['extensions']['leverage']['collateralAddress'] }
+>;
 
 /**
  * {@link ProductToken} - A union of all tokens that are Index Coop product tokens
