@@ -34,6 +34,14 @@ export default {
       description:
         'Product Revenue Tokens, PRTs for short, distribute an Index products revenue amongst all PRT holders by staking PRTs in the respective IC product revenue pool.',
     },
+    underlying: {
+      name: 'Underlying Token',
+      description: 'This is an underlying token for another token.',
+    },
+    collateral: {
+      name: 'Collateral Token',
+      description: 'This token is a collateral token for a leverage token.',
+    },
     sector: {
       name: 'Sector Token',
       description: 'This token represents a basket of tokens.',
@@ -1038,7 +1046,7 @@ export default {
         status: 'Active',
         coingeckoId: 'aave-polygon-wmatic',
       },
-      tags: ['component'],
+      tags: ['component', 'underlying'],
     },
     {
       address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
@@ -1810,7 +1818,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'stablecoin', 'component'],
+      tags: ['currency', 'stablecoin', 'component', 'collateral'],
     },
     {
       name: 'USD Coin',
@@ -1828,7 +1836,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'stablecoin', 'component'],
+      tags: ['currency', 'stablecoin', 'component', 'collateral'],
     },
     {
       name: 'USDCoin',
@@ -1847,7 +1855,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'stablecoin', 'component'],
+      tags: ['currency', 'stablecoin', 'component', 'collateral'],
     },
     {
       name: 'Tether USD',
@@ -1907,7 +1915,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying'],
     },
     {
       name: 'Wrapped Ether',
@@ -1925,7 +1933,7 @@ export default {
           },
         },
       },
-      tags: ['currency'],
+      tags: ['currency', 'component', 'underlying'],
     },
     {
       name: 'Wrapped Ether',
@@ -1944,7 +1952,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying', 'collateral'],
     },
     {
       name: 'Wrapped BTC',
@@ -1966,7 +1974,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying'],
     },
     {
       name: 'Wrapped BTC',
@@ -1985,7 +1993,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying'],
     },
     {
       name: 'Wrapped BTC',
@@ -2004,7 +2012,7 @@ export default {
           },
         },
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying', 'collateral'],
     },
     {
       chainId: 1,
@@ -2032,7 +2040,7 @@ export default {
         status: 'Active',
         coingeckoId: 'rocket-pool-eth',
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying'],
     },
     {
       address: '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84',
@@ -2074,7 +2082,7 @@ export default {
         status: 'Active',
         coingeckoId: 'wrapped-solana-universal',
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying'],
     },
     {
       address: '0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4',
@@ -2088,7 +2096,7 @@ export default {
         status: 'Active',
         coingeckoId: 'wrapped-sui-universal',
       },
-      tags: ['currency', 'component'],
+      tags: ['currency', 'component', 'underlying'],
     },
     {
       address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',

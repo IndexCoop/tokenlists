@@ -12,6 +12,7 @@ import tokenlist from './tokenlist.json';
 import type {
   AddressByChain,
   ChainId,
+  CollateralToken,
   ComponentToken,
   CurrencyToken,
   IndexToken,
@@ -28,6 +29,7 @@ import type {
   TokenSymbolMap,
   TokenSymbolMapByChain,
   U2I,
+  UnderlyingToken,
   YieldToken,
 } from './types';
 
@@ -129,6 +131,12 @@ export const isSectorToken = (token: unknown): token is SectorToken =>
  */
 export const isYieldToken = (token: unknown): token is YieldToken =>
   isIndexToken(token) && 'yield' in token.extensions;
+
+export const isUnderlyingToken = (token: unknown): token is UnderlyingToken =>
+  isListedToken(token) && token.tags.some((tag) => tag === 'underlying');
+
+export const isCollateralToken = (token: unknown): token is CollateralToken =>
+  isListedToken(token) && token.tags.some((tag) => tag === 'collateral');
 
 /**
  * Checks if the token is a {@link ProductToken}.
