@@ -1,5 +1,9 @@
 import * as fc from 'fast-check';
-import { leverageTokenArbitrary, unlistedTokenArbitrary } from './utils';
+import {
+  leverageTokenArbitrary,
+  nonLeverageIndexTokenArbitrary,
+  unlistedTokenArbitrary,
+} from './utils';
 import { getUnderlyingToken, isLeverageToken } from '../src/utils';
 import tokenlist from '../src/tokenlist.json';
 
@@ -13,21 +17,11 @@ describe('getUnderlyingToken', () => {
   });
 
   it('should return null for non-leverage tokens', () => {
-    // Create a non-leverage token arbitrary by filtering out leverage tokens
-    const nonLeverageTokens = tokenlist.tokens.filter(
-      (token) => !('leverage' in token.extensions),
+    fc.assert(
+      fc.property(nonLeverageIndexTokenArbitrary, (nonLeverageToken) => {
+        expect(getUnderlyingToken(nonLeverageToken)).toBeNull();
+      }),
     );
-
-    if (nonLeverageTokens.length > 0) {
-      fc.assert(
-        fc.property(
-          fc.constantFrom(...nonLeverageTokens),
-          (nonLeverageToken) => {
-            expect(getUnderlyingToken(nonLeverageToken)).toBeNull();
-          },
-        ),
-      );
-    }
   });
 
   it('should return null for unlisted tokens', () => {

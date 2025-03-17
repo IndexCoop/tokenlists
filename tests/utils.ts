@@ -215,21 +215,25 @@ export const tagArbitrary = fc.array(
 );
 
 export const underlyingTokenArbitrary = fc.constantFrom(
-  leverageTokenArbitrary.map((token) =>
-    tokenlist.tokens.find(
-      (t) =>
-        t.address ===
-        (token as LeverageToken).extensions.leverage.underlyingAddress,
-    ),
+  ...tokenlist.tokens.filter((token) =>
+    token.tags.some((t) => t === 'underlying'),
+  ),
+);
+
+export const nonUnderlyingTokenArbitrary = fc.constantFrom(
+  ...tokenlist.tokens.filter(
+    (token) => !token.tags.some((t) => t === 'underlying'),
   ),
 );
 
 export const collateralTokenArbitrary = fc.constantFrom(
-  leverageTokenArbitrary.map((token) =>
-    tokenlist.tokens.find(
-      (t) =>
-        t.address ===
-        (token as LeverageToken).extensions.leverage.collateralAddress,
-    ),
+  ...tokenlist.tokens.filter((token) =>
+    token.tags.some((t) => t === 'collateral'),
+  ),
+);
+
+export const nonCollateralTokenArbitrary = fc.constantFrom(
+  ...tokenlist.tokens.filter(
+    (token) => !token.tags.some((t) => t === 'collateral'),
   ),
 );
