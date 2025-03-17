@@ -3,9 +3,9 @@
   "version": {
     "major": 5,
     "minor": 3,
-    "patch": 1
+    "patch": 2
   },
-  "timestamp": "2025-03-12T08:57:48.259Z",
+  "timestamp": "2025-03-17T16:39:45.235Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -34,6 +34,14 @@
     "prt": {
       "name": "PRT",
       "description": "Product Revenue Tokens, PRTs for short, distribute an Index products revenue amongst all PRT holders by staking PRTs in the respective IC product revenue pool."
+    },
+    "underlying": {
+      "name": "Underlying Token",
+      "description": "This is an underlying token for another token."
+    },
+    "collateral": {
+      "name": "Collateral Token",
+      "description": "This token is a collateral token for a leverage token."
     },
     "sector": {
       "name": "Sector Token",
@@ -324,7 +332,7 @@
         "leverage": {
           "type": "Long2x",
           "underlyingAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-          "collateralAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+          "collateralAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f"
         }
       },
       "logoURI": "https://cdn.indexcoop.com/eth2xbtc.svg",
@@ -462,7 +470,9 @@
         "status": "Active",
         "coingeckoId": null,
         "leverage": {
-          "type": "Long2x"
+          "type": "Long2x",
+          "underlyingAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "collateralAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
         }
       },
       "logoURI": "https://cdn.indexcoop.com/eth2x.svg",
@@ -484,7 +494,7 @@
         "coingeckoId": null,
         "leverage": {
           "type": "Long3x",
-          "underlyingAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "underlyingAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
           "collateralAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
         }
       },
@@ -507,7 +517,7 @@
         "coingeckoId": null,
         "leverage": {
           "type": "Short1x",
-          "underlyingAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+          "underlyingAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
           "collateralAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
         }
       },
@@ -530,8 +540,8 @@
         "coingeckoId": null,
         "leverage": {
           "type": "Long2x",
-          "underlyingAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-          "collateralAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+          "underlyingAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+          "collateralAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
         }
       },
       "logoURI": "https://cdn.indexcoop.com/btc2x.svg",
@@ -599,8 +609,8 @@
         "coingeckoId": null,
         "leverage": {
           "type": "Long3x",
-          "underlyingAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
-          "collateralAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+          "underlyingAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+          "collateralAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
         }
       },
       "logoURI": "https://cdn.indexcoop.com/btc3x.svg",
@@ -1108,6 +1118,7 @@
       "chainId": 1,
       "extensions": {
         "status": "Active",
+        "coingeckoId": null,
         "yield": {
           "theme": "ETH"
         }
@@ -1292,7 +1303,8 @@
         "coingeckoId": "aave-polygon-wmatic"
       },
       "tags": [
-        "component"
+        "component",
+        "underlying"
       ]
     },
     {
@@ -2137,7 +2149,8 @@
       "tags": [
         "currency",
         "stablecoin",
-        "component"
+        "component",
+        "collateral"
       ]
     },
     {
@@ -2159,7 +2172,8 @@
       "tags": [
         "currency",
         "stablecoin",
-        "component"
+        "component",
+        "collateral"
       ]
     },
     {
@@ -2181,7 +2195,8 @@
       "tags": [
         "currency",
         "stablecoin",
-        "component"
+        "component",
+        "collateral"
       ]
     },
     {
@@ -2247,7 +2262,8 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying"
       ]
     },
     {
@@ -2267,7 +2283,9 @@
         }
       },
       "tags": [
-        "currency"
+        "currency",
+        "component",
+        "underlying"
       ]
     },
     {
@@ -2288,7 +2306,9 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying",
+        "collateral"
       ]
     },
     {
@@ -2312,7 +2332,8 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying"
       ]
     },
     {
@@ -2333,7 +2354,8 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying"
       ]
     },
     {
@@ -2354,7 +2376,9 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying",
+        "collateral"
       ]
     },
     {
@@ -2386,7 +2410,8 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying"
       ]
     },
     {
@@ -2432,7 +2457,8 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying"
       ]
     },
     {
@@ -2448,7 +2474,8 @@
       },
       "tags": [
         "currency",
-        "component"
+        "component",
+        "underlying"
       ]
     },
     {
