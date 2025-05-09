@@ -1869,6 +1869,31 @@ export default {
         status: 'Active',
         coingeckoId: 'tether',
         bridgeInfo: {
+          '8453': {
+            tokenAddress: '0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2',
+          },
+          '42161': {
+            tokenAddress: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
+          },
+        },
+      },
+      tags: ['currency', 'stablecoin'],
+    },
+    {
+      name: 'Bridged Tether USD',
+      address: '0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2',
+      symbol: 'USDT',
+      decimals: 6,
+      chainId: 8453,
+      logoURI:
+        'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png',
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'l2-standard-bridged-usdt-base',
+        bridgeInfo: {
+          '1': {
+            tokenAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+          },
           '42161': {
             tokenAddress: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
           },
@@ -1890,6 +1915,9 @@ export default {
         bridgeInfo: {
           '1': {
             tokenAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+          },
+          '8453': {
+            tokenAddress: '0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2',
           },
         },
       },
