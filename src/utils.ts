@@ -283,26 +283,8 @@ export function getTokenByChainAndAddressCurried(
 
 // Implementation
 export function getTokenByChainAndAddressCurried(chainId: unknown) {
-  return <A extends AddressByChain<ChainId>>(
-    address: A,
-  ): ListedToken | null => {
-    if (
-      typeof chainId === 'number' &&
-      typeof address === 'string' &&
-      chainId in tokenAddressMap &&
-      isAddress(address, { strict: false })
-    ) {
-      const tokenMapByChain = tokenAddressMap[chainId as ChainId];
-      const addr = checksumAddress(address);
-
-      if (addr in tokenMapByChain) {
-        return tokenMapByChain[
-          addr as keyof typeof tokenMapByChain
-        ] as ListedToken;
-      }
-    }
-    return null;
-  };
+  return <A extends AddressByChain<ChainId>>(address: A): ListedToken | null =>
+    getTokenByChainAndAddress(chainId, address);
 }
 
 /**
@@ -404,22 +386,8 @@ export function getTokenByChainAndSymbolCurried(
 ): (symbol: unknown) => ListedToken | null;
 
 export function getTokenByChainAndSymbolCurried(chainId: unknown) {
-  return <S extends SymbolsByChain<ChainId>>(symbol: S): ListedToken | null => {
-    if (
-      typeof chainId === 'number' &&
-      typeof symbol === 'string' &&
-      chainId in tokenSymbolMap
-    ) {
-      const tokenMapByChain = tokenSymbolMap[chainId as ChainId];
-
-      if (symbol in tokenMapByChain) {
-        return tokenMapByChain[
-          symbol as keyof typeof tokenMapByChain
-        ] as ListedToken;
-      }
-    }
-    return null;
-  };
+  return <S extends SymbolsByChain<ChainId>>(symbol: S): ListedToken | null =>
+    getTokenByChainAndSymbol(chainId, symbol);
 }
 
 /**
