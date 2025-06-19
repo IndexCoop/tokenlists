@@ -733,6 +733,42 @@ export default {
       logoURI: 'https://cdn.indexcoop.com/usui3x.svg',
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
+    {
+      address: '0x32BB8FF692A2F14C05Fe7a5ae78271741bD392fC',
+      name: 'uXRP/USDC 2x Leverage Morpho',
+      symbol: 'uXRP2x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+          underlyingAddress: '0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/uxrp2x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x5c600527D2835F3021734504E53181E54fA48f73',
+      name: 'uXRP/USDC 3x Leverage Morpho',
+      symbol: 'uXRP3x',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+          underlyingAddress: '0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE',
+          collateralAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/uxrp3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
     // --------------- Yield Tokens ---------------
     {
       address: '0xc8DF827157AdAf693FCb0c6f305610C28De739FD',
@@ -2153,6 +2189,20 @@ export default {
         coingeckoId: 'superbridge-bridged-wsteth-base',
       },
       tags: ['currency', 'component'],
+    },
+    {
+      address: '0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE',
+      name: 'XRP (Universal)',
+      symbol: 'uXRP',
+      decimals: 18,
+      chainId: 8453,
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'wrapped-xrp-universal',
+      },
+      logoURI:
+        'https://assets.coingecko.com/coins/images/51658/standard/UA-XRP_1.png?1731703523',
+      tags: ['currency', 'component', 'underlying'],
     },
   ],
 } as const;
