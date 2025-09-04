@@ -810,7 +810,7 @@ export default {
       decimals: 18,
       chainId: 1,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: 'diversified-staked-eth',
         yield: {
           theme: 'ETH',
@@ -858,7 +858,7 @@ export default {
       decimals: 18,
       chainId: 1,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: null,
         yield: {
           theme: 'ETH',
@@ -955,7 +955,7 @@ export default {
       decimals: 18,
       logoURI: 'https://cdn.indexcoop.com/icusd.svg',
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: null,
         yield: {
           theme: 'USDC',
@@ -971,7 +971,7 @@ export default {
       decimals: 18,
       logoURI: 'https://cdn.indexcoop.com/icusd.svg',
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: null,
         yield: {
           theme: 'USDC',
