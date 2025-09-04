@@ -93,7 +93,7 @@ export default {
       decimals: 18,
       chainId: 42161,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: 'defi-pulse-index',
         sector: {
           theme: 'DeFi',
@@ -109,7 +109,7 @@ export default {
       decimals: 18,
       chainId: 8453,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: 'defi-pulse-index',
         sector: {
           theme: 'DeFi',
@@ -141,7 +141,7 @@ export default {
       decimals: 18,
       chainId: 42161,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: 'metaverse-index',
         sector: {
           theme: 'Metaverse',
@@ -157,7 +157,7 @@ export default {
       decimals: 18,
       chainId: 8453,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: 'metaverse-index',
         sector: {
           theme: 'Metaverse',
@@ -826,7 +826,7 @@ export default {
       decimals: 18,
       chainId: 42161,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: 'diversified-staked-eth',
         yield: {
           theme: 'ETH',
@@ -842,7 +842,7 @@ export default {
       decimals: 18,
       chainId: 8453,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: 'diversified-staked-eth',
         yield: {
           theme: 'ETH',
@@ -890,7 +890,7 @@ export default {
       decimals: 18,
       chainId: 42161,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: null,
         yield: {
           theme: 'ETH',
@@ -906,7 +906,7 @@ export default {
       decimals: 18,
       chainId: 8453,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: null,
         yield: {
           theme: 'ETH',
