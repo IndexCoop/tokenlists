@@ -938,7 +938,7 @@ export default {
       decimals: 18,
       chainId: 1,
       extensions: {
-        status: 'Active',
+        status: 'Deprecated',
         coingeckoId: null,
         yield: {
           theme: 'ETH',
