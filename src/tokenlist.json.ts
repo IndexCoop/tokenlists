@@ -353,7 +353,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous', 'component'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0x23C3e5B3d001e17054603269EDFC703603AdeFd8',
@@ -371,7 +371,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth3x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous', 'component'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0xD2AC55cA3Bbd2Dd1e9936eC640dCb4b745fDe759',
@@ -389,7 +389,7 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous', 'component'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0xc7068657FD7eC85Ea8Db928Af980Fc088aff6De5',
@@ -406,8 +406,8 @@ export default {
           collateralAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
         },
       },
-      logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous', 'component'],
+      logoURI: 'https://cdn.indexcoop.com/btc3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0x26d7D3728C6bb762a5043a1d0CeF660988Bca43C',
@@ -1900,7 +1900,7 @@ export default {
       },
       logoURI:
         'https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png',
-      tags: ['component'],
+      tags: ['component', 'underlying'],
     },
     {
       chainId: 42161,
@@ -1919,7 +1919,7 @@ export default {
       },
       logoURI:
         'https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png',
-      tags: ['component'],
+      tags: ['component', 'underlying'],
     },
     {
       chainId: 1,
