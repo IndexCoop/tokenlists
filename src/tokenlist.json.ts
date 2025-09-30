@@ -353,7 +353,25 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/eth2x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous', 'component'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x23C3e5B3d001e17054603269EDFC703603AdeFd8',
+      name: 'Index Coop Ethereum 3x Index',
+      symbol: 'ETH3x',
+      decimals: 18,
+      chainId: 1,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+          underlyingAddress: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+          collateralAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/eth3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0xD2AC55cA3Bbd2Dd1e9936eC640dCb4b745fDe759',
@@ -371,7 +389,25 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/btc2x.svg',
-      tags: ['index', 'product', 'leverage', 'dangerous', 'component'],
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0xc7068657FD7eC85Ea8Db928Af980Fc088aff6De5',
+      name: 'Index Coop Bitcoin 3x Index',
+      symbol: 'BTC3x',
+      decimals: 18,
+      chainId: 1,
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+          underlyingAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
+          collateralAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+        },
+      },
+      logoURI: 'https://cdn.indexcoop.com/btc3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     {
       address: '0x26d7D3728C6bb762a5043a1d0CeF660988Bca43C',
@@ -767,6 +803,78 @@ export default {
         },
       },
       logoURI: 'https://cdn.indexcoop.com/uxrp3x.svg',
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x1d86FBAd389068E19fa665Eba12A0Ebd4c68BB08',
+      chainId: 1,
+      name: 'Index Coop Gold 3x Index',
+      symbol: 'GOLD3x',
+      decimals: 18,
+      logoURI: 'https://cdn.indexcoop.com/gold3x.svg',
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long3x',
+          underlyingAddress: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+          collateralAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
+        },
+      },
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0xaF0408C1Cc4b41cf878143423015937032878913',
+      chainId: 42161,
+      name: 'Index Coop Chainlink 2x Index',
+      symbol: 'LINK2x',
+      decimals: 18,
+      logoURI: 'https://cdn.indexcoop.com/link2x.svg',
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+          underlyingAddress: '0xf97f4df75117a78c1a5a0dbb814af92458539fb4',
+          collateralAddress: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
+        },
+      },
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0x9ba1d6C651624977435bc6E2c98D4c7407112e15',
+      chainId: 42161,
+      name: 'Index Coop Aave 2x Index',
+      symbol: 'AAVE2x',
+      decimals: 18,
+      logoURI: 'https://cdn.indexcoop.com/aave2x.svg',
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+          underlyingAddress: '0xba5DdD1f9d7F570dc94a51479a000E3BCE967196',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
+        },
+      },
+      tags: ['index', 'product', 'leverage', 'dangerous'],
+    },
+    {
+      address: '0xFc01f273126B3d515e6ce6CaB9e53d5C6990D6CB',
+      chainId: 42161,
+      name: 'Index Coop Arbitrum 2x Index',
+      symbol: 'ARB2x',
+      decimals: 18,
+      logoURI: 'https://cdn.indexcoop.com/arb2x.svg',
+      extensions: {
+        status: 'Active',
+        coingeckoId: null,
+        leverage: {
+          type: 'Long2x',
+          underlyingAddress: '0x912CE59144191C1204E64559FE8253a0e49E6548',
+          collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
+        },
+      },
       tags: ['index', 'product', 'leverage', 'dangerous'],
     },
     // --------------- Yield Tokens ---------------
@@ -1637,11 +1745,73 @@ export default {
       decimals: 18,
       extensions: {
         status: null,
-        coingeckoId: 'aave',
+        coingeckoId: 'arbitrum',
+        bridgeInfo: {
+          '42161': {
+            tokenAddress: '0xba5DdD1f9d7F570dc94a51479a000E3BCE967196',
+          },
+        },
       },
       logoURI:
-        'https://assets.coingecko.com/coins/images/12467/thumb/ghst_200.png?1600750321',
-      tags: ['component'],
+        'https://assets.coingecko.com/coins/images/12645/standard/aave-token-round.png',
+      tags: ['component', 'underlying'],
+    },
+    {
+      chainId: 42161,
+      address: '0xba5DdD1f9d7F570dc94a51479a000E3BCE967196',
+      name: 'Aave Token',
+      symbol: 'AAVE',
+      decimals: 18,
+      extensions: {
+        status: null,
+        coingeckoId: 'aave',
+        bridgeInfo: {
+          '1': {
+            tokenAddress: '0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9',
+          },
+        },
+      },
+      logoURI:
+        'https://assets.coingecko.com/coins/images/12645/standard/aave-token-round.png',
+      tags: ['component', 'underlying'],
+    },
+    {
+      chainId: 1,
+      address: '0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1',
+      name: 'Arbitrum',
+      symbol: 'ARB',
+      decimals: 18,
+      extensions: {
+        status: null,
+        coingeckoId: 'aave',
+        bridgeInfo: {
+          '42161': {
+            tokenAddress: '0x912CE59144191C1204E64559FE8253a0e49E6548',
+          },
+        },
+      },
+      logoURI:
+        'https://assets.coingecko.com/coins/images/16547/standard/arb.jpg',
+      tags: ['component', 'underlying'],
+    },
+    {
+      chainId: 42161,
+      address: '0x912CE59144191C1204E64559FE8253a0e49E6548',
+      name: 'Arbitrum',
+      symbol: 'ARB',
+      decimals: 18,
+      extensions: {
+        status: null,
+        coingeckoId: 'arbitrum',
+        bridgeInfo: {
+          '42161': {
+            tokenAddress: '0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1',
+          },
+        },
+      },
+      logoURI:
+        'https://assets.coingecko.com/coins/images/16547/standard/arb.jpg',
+      tags: ['component', 'underlying'],
     },
     {
       chainId: 1,
@@ -1722,10 +1892,34 @@ export default {
       extensions: {
         status: null,
         coingeckoId: 'chainlink',
+        bridgeInfo: {
+          '42161': {
+            tokenAddress: '0xf97f4df75117a78c1a5a0dbb814af92458539fb4',
+          },
+        },
       },
       logoURI:
         'https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png',
-      tags: ['component'],
+      tags: ['component', 'underlying'],
+    },
+    {
+      chainId: 42161,
+      address: '0xf97f4df75117a78c1A5a0DBb814Af92458539FB4',
+      name: 'ChainLink Token',
+      symbol: 'LINK',
+      decimals: 18,
+      extensions: {
+        status: null,
+        coingeckoId: 'chainlink',
+        bridgeInfo: {
+          '1': {
+            tokenAddress: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
+          },
+        },
+      },
+      logoURI:
+        'https://tokens.1inch.io/0x514910771af9ca656af840dff83e8264ecf986ca.png',
+      tags: ['component', 'underlying'],
     },
     {
       chainId: 1,
@@ -2191,6 +2385,20 @@ export default {
       tags: ['currency', 'component'],
     },
     {
+      address: '0x68749665FF8D2d112Fa859AA293F07A622782F38',
+      name: 'Tether Gold',
+      symbol: 'XAUt',
+      decimals: 6,
+      chainId: 1,
+      extensions: {
+        status: 'Active',
+        coingeckoId: 'tether-gold',
+      },
+      logoURI:
+        'https://assets.coingecko.com/coins/images/10481/standard/Tether_Gold.png',
+      tags: ['currency', 'component', 'underlying'],
+    },
+    {
       address: '0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE',
       name: 'XRP (Universal)',
       symbol: 'uXRP',
@@ -2201,7 +2409,7 @@ export default {
         coingeckoId: 'wrapped-xrp-universal',
       },
       logoURI:
-        'https://assets.coingecko.com/coins/images/51658/standard/UA-XRP_1.png?1731703523',
+        'https://assets.coingecko.com/coins/images/51658/standard/UA-XRP_1.png',
       tags: ['currency', 'component', 'underlying'],
     },
   ],
