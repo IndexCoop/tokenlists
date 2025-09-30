@@ -835,7 +835,7 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long2x',
-          underlyingAddress: '0xf97f4df75117a78c1a5a0dbb814af92458539fb4',
+          underlyingAddress: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
           collateralAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         },
       },
@@ -1866,7 +1866,7 @@ export default {
     },
     {
       chainId: 42161,
-      address: '0xf97f4df75117a78c1a5a0dbb814af92458539fb4',
+      address: '0xf97f4df75117a78c1A5a0DBb814Af92458539FB4',
       name: 'ChainLink Token',
       symbol: 'LINK',
       decimals: 18,
