@@ -552,7 +552,7 @@ export async function getComponentsOf(
 }
 
 /**
- * Retrieves the underlying token for a leverage token.
+ * Retrieves the underlying token for a token.
  * @param token - A leverage token
  * @returns The underlying token, or null if not found or if the input is not a leverage token
  * @example
