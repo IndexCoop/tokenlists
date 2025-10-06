@@ -817,7 +817,7 @@ export default {
         coingeckoId: null,
         leverage: {
           type: 'Long3x',
-          underlyingAddress: '0x68749665ff8d2d112fa859aa293f07a622782f38',
+          underlyingAddress: '0x68749665FF8D2d112Fa859AA293F07A622782F38',
           collateralAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
         },
       },
