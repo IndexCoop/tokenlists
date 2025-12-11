@@ -2,10 +2,10 @@
   "name": "IndexCoop Token List",
   "version": {
     "major": 5,
-    "minor": 6,
+    "minor": 7,
     "patch": 0
   },
-  "timestamp": "2025-09-30T15:22:27.588Z",
+  "timestamp": "2025-12-11T13:12:20.463Z",
   "tags": {
     "component": {
       "name": "Component Token",
@@ -689,6 +689,52 @@
       ]
     },
     {
+      "address": "0x6a21af139B440f0944f9e03375544bB3E4E2135f",
+      "name": "Index Coop 2x Inverse Ethereum Index",
+      "symbol": "iETH2x",
+      "decimals": 18,
+      "chainId": 42161,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Short2x",
+          "underlyingAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+          "collateralAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/ieth2x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0x304F3eB3b77C025664a7b13c3f0eE2f97F9743fD",
+      "name": "Index Coop 2x Inverse Bitcoin Index",
+      "symbol": "iBTC2x",
+      "decimals": 18,
+      "chainId": 42161,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Short2x",
+          "underlyingAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+          "collateralAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/ibtc2x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
       "address": "0xC884646E6C88d9b172a23051b38B0732Cc3E35a6",
       "name": "Index Coop Ethereum 2x Index",
       "symbol": "ETH2X",
@@ -727,6 +773,98 @@
         }
       },
       "logoURI": "https://cdn.indexcoop.com/eth3x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0xCF4AC08635c12226659c7E10B1C1ad3d1bDc3C58",
+      "name": "Index Coop Inverse Ethereum Index",
+      "symbol": "iETH1x",
+      "decimals": 18,
+      "chainId": 8453,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Short1x",
+          "underlyingAddress": "0x4200000000000000000000000000000000000006",
+          "collateralAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/ieth1x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0xe18f4002fB4855022332Cfab2393a22649bb86B9",
+      "name": "Index Coop Inverse Bitcoin Index",
+      "symbol": "iBTC1x",
+      "decimals": 18,
+      "chainId": 8453,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Short1x",
+          "underlyingAddress": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+          "collateralAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/ibtc1x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0x563c4f95D1D4372fA64803E9B367f14a7Ff28b1a",
+      "name": "Index Coop 2x Inverse Ethereum Index",
+      "symbol": "iETH2x",
+      "decimals": 18,
+      "chainId": 8453,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Short2x",
+          "underlyingAddress": "0x4200000000000000000000000000000000000006",
+          "collateralAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/ieth2x.svg",
+      "tags": [
+        "index",
+        "product",
+        "leverage",
+        "dangerous"
+      ]
+    },
+    {
+      "address": "0x3b73475EDE04891AE8262680D66A4f5A66572EB0",
+      "name": "Index Coop 2x Inverse Bitcoin Index",
+      "symbol": "iBTC2x",
+      "decimals": 18,
+      "chainId": 8453,
+      "extensions": {
+        "status": "Active",
+        "coingeckoId": null,
+        "leverage": {
+          "type": "Short2x",
+          "underlyingAddress": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+          "collateralAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+        }
+      },
+      "logoURI": "https://cdn.indexcoop.com/ibtc2x.svg",
       "tags": [
         "index",
         "product",
@@ -1022,7 +1160,7 @@
         "coingeckoId": null,
         "leverage": {
           "type": "Long3x",
-          "underlyingAddress": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+          "underlyingAddress": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
           "collateralAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
         }
       },
@@ -1498,7 +1636,7 @@
       "logoURI": "https://assets.coingecko.com/coins/images/40143/large/cbbtc.webp",
       "extensions": {
         "status": null,
-        "coingeckoId": null
+        "coingeckoId": "coinbase-wrapped-btc"
       },
       "tags": [
         "component"
